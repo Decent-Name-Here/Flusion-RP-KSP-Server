@@ -6,11 +6,11 @@
   </SettingItem>
   <SettingItem>
     <Name>windowPositionX</Name>
-    <Value xsi:type="xsd:float">318</Value>
+    <Value xsi:type="xsd:float">2391</Value>
   </SettingItem>
   <SettingItem>
     <Name>windowPositionY</Name>
-    <Value xsi:type="xsd:float">126</Value>
+    <Value xsi:type="xsd:float">190</Value>
   </SettingItem>
   <SettingItem>
     <Name>compactMode</Name>
@@ -34,6 +34,6 @@
   </SettingItem>
   <SettingItem>
     <Name>selectedBodyName</Name>
-    <Value xsi:type="xsd:string">Xenon</Value>
+    <Value xsi:type="xsd:string">Flusion</Value>
   </SettingItem>
 </ArrayOfSettingItem>

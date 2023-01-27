@@ -20,6 +20,11 @@
       <Sha></Sha>
     </DllFile>
     <DllFile>
+      <Text>FShangarExtender. Version: 1.0.0.0</Text>
+      <FilePath>fshangarextender/fshangarextender.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
       <Text>KerbalEngineer. Version: 1.1.9.0</Text>
       <FilePath>kerbalengineer/kerbalengineer.dll</FilePath>
       <Sha></Sha>
@@ -52,6 +57,21 @@
     <DllFile>
       <Text>ModularFlightIntegrator. Version: 1.2.10.0</Text>
       <FilePath>modularflightintegrator/modularflightintegrator.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>DockingPortAlignmentIndicator. Version: 6.10.0.0</Text>
+      <FilePath>navyfish/plugins/docking port alignment indicator/dockingportalignmentindicator.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>DPAI_RPM. Version: 1.0.0.2</Text>
+      <FilePath>navyfish/plugins/docking port alignment indicator/dpai_rpm.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>ModuleDockingNodeNamed. Version: 1.0.0.2</Text>
+      <FilePath>navyfish/plugins/docking port alignment indicator/moduledockingnodenamed.dll</FilePath>
       <Sha></Sha>
     </DllFile>
     <DllFile>

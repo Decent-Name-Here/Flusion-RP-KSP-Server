@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-16"?>
 <SettingStructure xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Language>English</Language>
-  <PlayerName>Meolson</PlayerName>
+  <PlayerName>Omnitae</PlayerName>
   <ConnectionTries>3</ConnectionTries>
   <InitialConnectionMsTimeout>5000</InitialConnectionMsTimeout>
   <SendReceiveMsInterval>3</SendReceiveMsInterval>
@@ -9,8 +9,8 @@
   <HearbeatMsInterval>2000</HearbeatMsInterval>
   <DisclaimerAccepted>true</DisclaimerAccepted>
   <PlayerColor>
-    <r>0.99</r>
-    <g>0.270763755</g>
+    <r>0</r>
+    <g>0.56509</g>
     <b>0.08341597</b>
     <a>1</a>
   </PlayerColor>
@@ -21,9 +21,9 @@
   <MaxGroupsPerPlayer>1</MaxGroupsPerPlayer>
   <IgnoreSyncChecks>false</IgnoreSyncChecks>
   <Mtu>1408</Mtu>
-  <ChatBuffer>30</ChatBuffer>
-  <AutoExpandMtu>false</AutoExpandMtu>
-  <TimeoutSeconds>15</TimeoutSeconds>
+  <ChatBuffer>65</ChatBuffer>
+  <AutoExpandMtu>true</AutoExpandMtu>
+  <TimeoutSeconds>3.40282347E+38</TimeoutSeconds>
   <ServerFilters>
     <HidePrivateServers>false</HidePrivateServers>
     <HideFullServers>true</HideFullServers>

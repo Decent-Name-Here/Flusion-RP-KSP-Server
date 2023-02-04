@@ -1,0 +1,489 @@
+OPT Reconfig
+
+
+3.4.1
+
+* Fixed lingering OPT SAS problem(s).
+* Fixed excessive EC demand of 2.5m Dark Energy power sphere's Dark Goo regeneration.
+* Increased drag power of OPT airbrakes.
+
+
+3.4
+
+* Changed life support resources into a discrete B9 switch module on crewed parts.
+* Fixed issue with missing keys on EggDog engines when CryoEngines installed.
+* Fixed missing Oxidizer gauge on EggDog and Bubble engines.
+* Fixed other issues with WBI Classic Stock and CryoEngines:
+  * Default tank amounts were wrong.
+  * Made OmniStorage default to LiquidFuel, not Propellium, when OPT_Reconfig_CryoEngines not active.
+  * Made air-breathing fuel mix switcher (in engines) default to LiquidFuel, not Propellium, when OPT_Reconfig_CryoEngines not active.
+* WBI Stress!
+  * Allowed entertainment center to not need a connection to the homeworld.
+  * Discounted microgravity stress except when Less or Zero Handwavium active.
+
+
+3.3
+
+* Adjusted Dark Drive options to detect "SystemHeatConverters" to hopefully cure System Heat conflict.
+* Created Extras folder containing:
+  * OPT_Reconfig_CryoEngines.cfg - Except for RO users, this has been moved out and is now completely optional.
+  * OPT_Reconfig_LessHandwavium.cfg - Changes engine behaviors and Tidal Force power spheres to be more "stockalike" or "realistic."
+  * OPT_Reconfig_ZeroHandwavium.cfg - Includes the former and deletes the "Dark Energy" power spheres and end-game engines.
+  * OPT_Reconfig_LessB9ForTweakScale.cfg - Disables B9 toggles for engines and converters as TweakScale doesn't handle them well.
+* Fixed OPTSAS problem.
+
+
+3.2
+
+* Added Feature Bias "B" tweakable. Edit the values in `OPT_Reconfig/OPT_00Tweak.cfg` to your liking. Not tested for use with RealismOverhaul but should still work just fine. This tweakable allows for:
+  * [1] Reducing the handwavium nature of most OPT engines and the "Tidal Force" (fuel cell) power spheres: give them stockalike or more realistic:tm: behavior.
+  * [2] Option [1] + Deleting the Dark Drive, WarpJets, Bubble engine, and "Dark Energy" (fusion) power spheres.
+* Enabled all OPT body parts to hold IntakeAtm for maximum use of WarpJets.
+* Fixed redundant FFT Antimatter containment module on parts.
+* Fixed other fatal Classic Stock issues.
+* Improved or fixed integration with Classic Stock and Rational Resources.
+
+
+3.1.2
+
+* Fixed SystemHeat detection. It was expecting a catch-all patch which isn't as abundant in players installs as I assumed.
+
+
+3.1.1
+
+* Added SystemHeat detection to B9-involved converter modules.
+* Fixed new CryoEngines problem due to VIsp config.
+
+
+3.1
+
+* Added kOS Processor to all drone cores.
+* Added Far Future Tech derived system:
+  * Dark Drive now uses OPT Black Hole resource instead of Dark Goo.
+  * Dark Drive is now a true interstellar grade engine derived from Kugelblitz sci-fi engine. No longer useful in atmosphere.
+  * Dark Drive is useless without OPT Reconfig as Reconfig contains Black Hole resource definition.
+  * Enabled OPT bodies to hold FFT propellants including Antimatter and to carry the containment module.
+* Fixed RO antenna patch to detect RealAntennas and not RO.
+* Revised "Dark Energy" power sphere fuel options.
+* Revised Dark Goo system:
+  * "Dark Energy" power spheres hold this by default and not XenonGas.
+  * Dark Goo is its own fusion fuel option and no longer a component of all other fusion fuel options.
+  * Phased out Dark Science.
+* Tiny fixes.
+* Updated Tweakscale configs to be less likely to be overlapped by foreign Tweakscale modlets which then cause fatal exceptions.
+* Updated file names and NEEDS concerning CRP vs Classic Stock to reduce likelihood of fatal issues concerning WBI play mode switcher.
+* Updated detection concerning stock inventory system.
+
+
+3.0
+
+* Added heat limit upgrades for H noses. (Bundled with Mk2 nose upgrades.)
+* Added KSP 1.11 stock inventory to crewed parts.
+* Added Localization support.
+* Added Realism Overhaul support.
+* Fixes to IntakeAtm and CryoEngines patches.
+* Removed GPOSpeed fuel patch. Unknown if it supports WBI Omnistorage.
+* Rewrote WBI integration and phased out Pathfinder legacy templates. It's all OmniConverters and OmniStorage. Always has been.
+* OPT in ClassicStock play mode uses "PropLox" fuel mix (Propellium + Oxidizer, equivalent to Hydrolox).
+
+
+2.2.0
+
+* Added KerbalChangelog support.
+* Fixed OPTLH2O tank problem. (I hope)
+* Updated FAR config:
+  * Added all Legacy wings.
+  * Added missing references to rotation transforms for Main's wings.
+
+
+2.1.0
+
+* Absorbed and unified configs and other resources from OPT Main (now Continued).
+  * Agencies with updated logos.
+  * Flags. New and replaced ones.
+* Added colors to B9 tank options for NF Propulsion.
+* Added Water to Rational Resources B9 tank options.
+
+
+2.0.7
+
+* Finally understood and fixed the KerbalAtomics/OPTLH2O problem.
+
+
+2.0.6
+
+* Added stack nodes to KH fuselage for mounting payloads without causing CoM offset.
+  * Added B9 switcher for these stack nodes and for KH inline SAS and cargo tails.
+* Changed Covert Aeronautics tech nodes to hide if empty (when obscure tech trees are installed and if they move OPT end-game parts).
+* Fixed B9PS RCS options to properly need or not need CRP where appropriate.
+* Fixed missing Dark Science in K lab.
+* Some housekeeping.
+
+
+2.0.5
+
+* Added CryoEngines support for VTOL engines.
+* Fixed missing support for Connected Living Spaces.
+* Fixed low or imbalanced heat limits in Mk2 ram intake.
+* Fixed WarpJet VTOL engines not using IntakeAtm when CRP is present.
+* Fixed wings not getting WBI tanks.
+* Raised K crew capacities to 6.
+* Updated KIS compatibility.
+  * KIS feature no longer needs WBI Pathfinder installed but still work well with it.
+  * H body and most? of K body get KIS space. Space is reduced when Pathfinder not installed as to not overlap a lot with fuel space.
+* Updated heat limit upgrades.
+  * Fixed minor issues or shortcomings.
+  * Fixed Stail Drone core not losing Ablator tank type when MFT/RF installed.
+  * Split Mk2 heat upgrade into 2 upgrades.
+
+
+2.0.4
+
+* Fixed undefined value problem with Power Spheres for WBI integration.
+* Updated WarpJet (air-breathing) rescale patch to include WarpJet VTOl engines.
+
+
+2.0.3
+
+* Fixed Configurable Containers detection.
+
+
+2.0.2
+
+* Added missing turbine fuel mix options. The following VTOL engines can switch (in air-breathing mode) between LiquidFuel + IntakeAir and LFO + IntakeAtm.
+  * Helicarrier, Bubble, Valkyrie.
+* Finally fixed default for Power Sphere VS-01 "Tidal Force": defaults to LFO and not Methalox.
+
+
+2.0.1
+
+* Added missing SAS module to K drone core.
+* Fixed Hydrolox tank issue.
+
+
+2.0
+
+* Added drag cube fix for stock Mk2 drone core.
+* Added drag cube fix for H bodies.
+* Added lift surface and 2nd RCS module (seet to use throttle) to aerodynamic OMS thruster. You may need to replace this part on very craft that has it so that it behaves properly.
+* Added (Upgraded) support for Allista's Configurable Containers.
+* Added Kerbalism buffs for science data and samples storage.
+* Added Covert Aero II tech node for even more advanced OPT engines.
+  * Moved Dark Drive and its new friend, the Bubble, into there.
+* Added tank options for Stail Drone Core and Stail Fairing MonoPropellant Tank.
+* Added/updated subcategory icons.
+* Added thermal upgrades for J nose, Stail Drone Core, Mk2 nose.
+  * Made upgrade nodes themselves more informative in RnD view.
+* Added a tech node after Covert Aeronautics. Compatible with CTT and Unkerballed Start.
+* Deprecated redundant RCS parts. The remaining parts now include all RCS mix options and color change where applicable. (Soft-deprecation. Craft files will not break.)
+* Fixed Kerbalism detection, NF Propulsion detection and erroneous Xenon tank type settings.
+* Fixed erroneous static thrust problem on HAE-02 and J-92 Nebula jet engines.
+* Moved J linear aerospike and HAE-02 jet engine to Hypersonic Flight tech node alongside the Stail linear aerospike.
+* Reduced EC demand in all MonoPropellant RCS.
+* Several tiny tweaks.
+* Updated Dark Goo:
+  * Boiloff rate is 0.2x as fast as before.
+  * Dark Drive now holds 3x as much. Its mileage should be quite great now.
+
+
+1.9.3 
+
+* Added Kerbal Atomics detection to cryo tank/engine patch.
+* Adjusted WBI EC template to provide 20x units per volume like B9PS does. (It was formerly 4x.)
+* Adjusted fuel ratio for air-breathing cryo engines. Less demanding on intakes.
+* Fixed MFT patch. It was self-deleting.
+* Removed second lift surface module in J aerospike.
+* Updated Nebula scramjet mode for more fuel efficiency but more EC demanding.
+
+
+1.9.2
+
+* Adjust Covert Aero tech node's position and cost for Unkerballed Start.
+* Adjust Covert Aero tech node to require both/all parent nodes to unlock.
+
+
+1.9.1
+
+* Added missing LH2 tank options to inline SAS parts.
+* Changed Power Spheres to use B9PS for input switching. Requires quicksave + quickload after applying.
+  * Added options to "Tidal Force" Power Sphere (No longer just LFO, but LF, Mono, LH2O, LH2.)
+* Removed erroneous line that removes B9PS from H noses under USI LS.
+* Removed lift surface from I series parts.
+* Updated Power Sphere "Tidal Force" to accept LH2O if CryoEngines is installed.
+* Warning: Tweakscale effects will no longer apply to B9-enhanced converters.
+
+
+1.9.0
+
+* Fixed major oops (baddum tish!) with MFT/RealFuels patch. It activated alongside other patches and caused tank options conflicts.
+* Added Ablator tank type as part of drop tanks upgrade.
+* Added IntakeAtm tank option for WarpJet SAGE's closed cycle:
+  * Mk2 nose.
+  * Drop tanks.
+  * J, K, KH, Humpback inline SAS.
+* Added plural B9 tank descriptions.
+* Enabled all MonoPropellant-fed OPT RCS devices to switch between, and use MonoPropellant or IntakeAtm. (Needs B9 Part Switch and Community Resource Pack.)
+* Enabled all LFO-fed OPT RCS devices to switch between, and use LFO or LH2O. (Needs B9 Part Switch and Community Resource Pack.)
+* Enabled inline RCS devices and aerodynamic, pointy RCS thrusters to hold RCS fuels.
+* Fixed error in cockpit detection.
+* Fixed big error in RCS patch.
+* Removed SAS module from anything that's not a drone core.
+* Updated configs for stripping unwanted resource and feature switch modules.
+* Updated drop tanks to have proper complementary servings of LF or OX separately.
+
+[WBI Classic Stock]
+* Added templates for Atmosphere and for Atmosphere + CompressedAtmosphere. These resources no longer blacklisted in OPT Omnistorage and are required for fueling WarpJet SAGE's closed cycle, or fueling air-breathing RCS thrusters.
+* Enabled equivalent mono or bi-propellant RCS fuel mix options.
+  * MonoPropellant, Nitronite, CompressedAtmosphere.
+  * LiquidFuel + Oxidizer, Propellium + Oxidizer.
+* WarpJets also include alternators for producing CompressedAtmosphere for air-breathing RCS.
+
+
+1.8.0
+
+* All main engines: New plumes. New sounds.
+* Added missing lift surface ratings to these engines: HAE-02 Mk2 engine, J Linear aerospike.
+* Added surface attach to Mk2 Nose.
+* Adjusted Power Sphere fusion selection.
+  * Some options are now only available when relevant mods are installed.
+  * Removed duplicate LqdHe3 option.
+* Adjusted Dark Goo balance.
+  * Added mass.
+  * Slowed its consumption and production rates.
+  * Added immense buffs for Dark Drive to serve as a half-decent interstellar engine.
+  * Made Dark Drive incredibly more expensive to match.
+* Revised MFT/RealFuels configs.
+
+
+1.7.0
+
+* Added Rational Resources tank types patch.
+* Added boiloff module for OPT CryoTanks. Delete the plugin for it if this feature is not desired.
+* Added Subcategories config.
+* Fixed duplicate vesseltype keys in cockpits.
+* Fixed drag cubes for J body, particularly the inline drone cores and SAS/RCS.
+* Fixed Connected Living Space patch:
+  * Added parts to this as passable volume was considered in the tank volume re-balance in Reconfig 1.5 ~ 1.6.
+* Fixed entries for a 2.5m cockpit in B9PS, WBI, IonCross and CLS integrations.
+* Ensured OPT Mk2 intake always has normalized heat tolerance.
+* OPT engines become CryoEngines if CryoEngines is installed.
+* Updated WarpJet engines to now default to IntakeAir if CRP not installed.
+
+
+1.6.1
+
+* Fixed Snacks: Air subtype being defined without its tank type/ without Air! enabled.
+
+
+1.6.0
+
+* Minor engine tuning. ARI engines assume they're in vacuum at 0.1% or 0.001 atm.
+* Consolidated and compartmentalized Dark Goo ecosystem. It's now divided across less configs and is easier to delete and disable without breaking things, for players who don't like it.
+* Added Ioncross Crew Support (a life support mod favored by other maintainers of OPT Spaceplane).
+* Added buff for Kerbal Foundries: Adjustable Landing Gear
+* Updated B9PS and WBI integration in accordance with release of Snacks: Air! and Stress!
+* Updated B9PS and WBI integration in accordance with internally renaming some Chimera parts and soft-deprecation to avoid breaking craft files. The only thing that can break is Tweakscale configs.
+* Fixed B9 tank types for NF Propulsion being declared regardless of NF Propulsion's presence.
+* Fixed tank volume balancing. 
+  * Avatar and K full tanks now hold double that of hollow tanks (9360 LF).
+  * Avatar and K tanks.
+  * Bicouplers and tricoupler(s).
+  * Avatar, K and Humpback adapters.
+  * J and Stail to 2.5m adapters.
+* Fixed (removed) potential for BARIS module to add twice to science labs.
+* Fixed CRP IntakeAtm-for-all patch not working when planet does not have Oxygen.
+* Fixed syntax errors that break the OPT Power Spheres under WBI integration.
+* Fixed broken fusion fuel selection for OPT Power Spheres under WBI: Classic Mode.
+  * Added several fusion fuel options to OPT Power Spheres under WBI: CRP Mode.
+  * Options: Boron, Lithium, Lithium6, LqdDeuterium, LqdHe3, LqdHydrogen, LqdTritium.
+  * Xenon option now fully treated as a fallback. Expect to be unable to use it in most cases.
+
+
+1.5.0
+
+* Added 1 deg of gimbal to Dark Drive.
+* Found/added B9 mesh switch in OPT 'Stail' Class to 2.5m Adapter.
+
+Big Balance Pass
+- - - - - -
+* Raised heat resistance in J "heat resistant" nose and Mk2 nose.
+* Buffed most tank volumes (as measured with stock fuel tanks and WBI Mule MLM. They now largely hold 2x the usual amounts and have comparable dry/wet ratios to stock tanks. This will upset, though not break, many craft). OPT is also now much more usable with Nertea's CryoTanks and CryoEngines.
+* Cockpits now hold much less fuel. They were excessive.
+* All RCS performance balanced and now use Plume Party "Soyuz" RCS FX.
+* K Tricoupler no longer holds fuel.
+* Nerfed tankage in all inline RCS and aeroydynamic RCS clusters. They were quite excessive.
+
+WBI integration
+- - - - - -
+* Update the template decal links following WBI decal revamp for KSP 1.7.
+  * Added decal for SAS/Gyro template.
+* OPT Reconfig will appear in play mode switcher UI.
+* Fusion Power Spheres can switch input resources via WBI.
+* Added cryo fuel options.
+* Added Casa/Ponderosa templates to the following parts: J Cabin, Humpback Cabin.
+* Added OmniShop and OmniWorks to the following parts. The use of tanks for this are a take on the "wet workshop" concept:
+  * Avater cockpit adapter and Avatar tank
+  * K 6m tank
+  * J cabin and J 4m tank
+  * Stail 4m tank
+  * H inline tanks
+  * Humpback cabin
+
+
+1.3.3.1
+
+* Adjusted versioning urls.
+
+
+1.3.3
+
+* Adjustments to Dark Drive/ Dark Goo config.
+* CTT for OPT Power Spheres.
+
+
+1.3.2
+
+* un-broke OPT ARI-75 quick response (2nd engine mode) in vacuum.
+
+1.3.1
+
+* Nerfed leading edge drag on all OPT Main Wing elevons. No more open airbrake levels of drag at zero AoA from these things
+* Revised USI modules config thanks to Nicky21
+* Changed default tank setting on droptanks (in WBI mode) from Oxidizer to LiquidFuel
+
+
+1.3
+
+* Re-evaluated some bulkhead profiles:
+  * "i" parts are now in "size2"
+  * "juno" parts go to "j"
+* Added CCK-style custom bulkhead profiles
+* Added non-spool secondary mode to ARI-75 engine (for vacuum friendly operation)
+* Slight increase to Dark Drive's RTG output
+
+
+1.2.5
+
+* Anti-collision for Modular Fuel Tanks.
+* Adjusted cryo tank ratios to playable levels, half of the suggested values by, and thanks to Sresk.
+* Nerf USI recyclers for J cabin, added recyclers to J, Stail, Avatar cockpits.
+* Removed flameout plume on HAE-02 engine. Scaling problem makes it as a flashbang and a health hazard.
+
+
+1.2.4
+
+* Added XenonGas to NFPropulsion tank types.
+* Buffed Lithium tankage (maybe by too much. Untested).
+* Added MonoPropellant tank option to all tanks/parts.
+* Arranged new LF, LFO, Mono tank types to prevent using tank switch to cheat dV.
+* Added MonoPropellant tank option to everything.
+* The following cannot be changed in-flight:
+  * Structural and Battery.
+  * Drop tanks.
+* Structural and Battery
+* Raised KIS slot counts.
+* Disabled whitelist entries for OPT labs for experiments. Apparently this causes MOLE experiments to always or only require an OPT lab.
+
+
+1.2.3
+
+* Added missing science container and Crew Report experiment to J boarding ramp and J rear hatch
+* Moved HAE-02 Mk2 engine to Aerospace Tech in tech tree
+* Buffed WBI storage capacity (x4)
+* Removed erroneous calls for OPT Legacy
+* Removed erroneous references to IntakeAtm when in Classic Stock mode and Community Resource Pack not installed
+* OPT parts will gain/use Atmosphere resource and not IntakeAtm simply if Pathfinder is installed
+* Added radiators to all cargo bays and hollow fuselage except ramps/tails
+* Remove second lift surface module from a 2.5m cockpit
+
+
+1.2.2
+
+* This release is completely intact unlike the others. I swear.
+* WBI config
+  * Added Dark Goo generator to DocSci templates, available to any lab that uses WBI lab templates
+  * Added Dark Goo generator to OmniConverters
+  * Added Battery tank option to parallel the one provided by B9PS
+  * Added OmniStorage to all parts
+  * Fixed missing options in H + Humpback cabins
+* Fixed plumes (again?) in J-92 Nebula engine
+* Fixed bulkhead profile in HAE-02 Mk2 engine
+* (Re)added Science Box storage for Dark Goo
+
+
+1.2.1
+
+* Fixed major error in version file
+* Removed giant smoke plumes from Mk2 engine
+
+
+1.2.0
+
+* NON-FAR aero patch; makes parts less draggy(tm)
+
+
+1.1.0
+
+* Added Battery tank type among the defaults
+* Made all tank types switchable in-flight except Structural and Battery
+* Added Kerbalism support including many B9 tank options for un-crewed parts
+* Added Near Future Propulsion support
+
+
+1.0.7
+
+* Fix J-92 plume problem
+
+
+1.0.6
+
+* CryoTanks options now depend on the presence of the "CryoEngines" folder, not "CryoTanks"
+* Oxidizer option now available for all parts
+
+
+1.0.5
+
+* Made B9 CryoTanks option to be sensitive to ClassicStock (and whether CryoTanks itself is present)
+* Raised internal heat limit on J-92 Shcramjet and Dark Drive
+* Added USI habitation to OPT K cockpits
+* Removed old references to codename "OPT_DynoTune"
+* Add OPT labs to WBI experiment whitelist for usable labs
+
+
+1.0.4
+
+* Fixed WarpJet Rescale config
+* Fixed Oxidizer tank option in OPT_WBI
+
+
+1.0.3
+
+* Provide own CryoTanks options to deal with apparent empty CryoTanks folder bug
+
+
+1.0.2
+
+* Removed dual WBI tank option on Stail docking port, adjusted legacy wing volume in B9PS
+* Fixed bad references to OPT Legacy (This might have kept provoking CryoTanks)
+
+
+1.0.1
+
+* Fixed collision problem with CryoTanks
+
+
+1.0.0
+
+* Migrated TechTree node and most configs from OPT Legacy
+* Produced rebalance config for OPT Main engines
+* Default fuel switch provider changed to B9 Part Switch
+* Removed Firespitter config
+* Absorbed OPT_USI and OPT_WBI
+* Added FAR
+* Configured main engines
+  * J-92 Shcramjet nerfed and dual mode: tamed primary turbojet mode + EC-enhanced scramjet mode with no top speed limit
+  * HAE-02 Turbojet nerfed
+  * J Linear Aerospike has better thrust, Isp and gets Pitch gimbal (does not animate)
+  * ARI-75 engine EC-enhanced, grants higher vac Isp
+  * Dark Drive now holds Dark Goo resource and needs recharging before any major burn; maximum dV limited by available Dark Goo
+  * OPT labs now host Dark Science required for recharging Dark Drive

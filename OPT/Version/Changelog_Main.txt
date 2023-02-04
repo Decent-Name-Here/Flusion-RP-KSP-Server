@@ -1,0 +1,44 @@
+OPT Spaceplane Continued
+
+3.1.1
+
+* Forgot to update version number...
+
+
+3.1
+
+* Added missing science module to K lab, without which, science operations and transmission were broken.
+
+
+3.0
+
+* Added KerbalChangelog support.
+* Added Localization support.
+* Added missing SAS module to all drone cores.
+* Fixed bulkheadprofile in Nebula engine. (Spotted by @ Lisias.)
+* Fixed bulkheadprofile in some I and J parts.
+* Fixed K Drone Core's SAS module still missing.
+* Fixed K and KH cargo bays and hollow fuselages appearing in Fuel Tank category (moved to Payload).
+* Fixed missing bulkheadprofile in RCS ports.
+* Increased thrust in these engines:
+  * Valkyrie tilt & WarpJet MARGE.
+  * VTOL wrapper engines.
+* Moved the following in from OPT Legacy:
+  * 2.5m Nebula Shock Intake.
+  * VTOL Wrapper engines.
+  * Avatar tilt and WarpJet MARGE engine.
+  * DepthMask assets.
+  * K cockpits (custom, TAV). All 3 K cockpits are now here.
+  * K cabin and lab.
+  * K and KH Inline SAS.
+* Removed obolste parts: some RCS thrusters, some Avatar fuselage parts. Craft files that have these will break.
+* Reduced node size on H parts.
+* Updated DepthMask patch to detect standalone DepthMask plugin.
+
+
+2.1.0
+
+* Deleted antiquated plugin bundles.
+* Deleted MM patches folder. Salvaged configs moved to OPT Reconfig.
+* Deleted flags. They are replaced and moved to OPT Reconfig.
+* Updated Agency logos and moved to OPT Reconfig.

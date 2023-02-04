@@ -5,6 +5,11 @@
   <MandatoryPlugins></MandatoryPlugins>
   <OptionalPlugins>
     <DllFile>
+      <Text>FilterExtensions. Version: 1.0.0.0</Text>
+      <FilePath>000_filterextensions/plugins/filterextensions.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
       <Text>0Harmony. Version: 2.0.4.0</Text>
       <FilePath>000_harmony/0harmony.dll</FilePath>
       <Sha></Sha>
@@ -15,13 +20,98 @@
       <Sha></Sha>
     </DllFile>
     <DllFile>
+      <Text>Attached. Version: 0.2.0.6</Text>
+      <FilePath>999_ksp-recall/plugins/attached.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>ChillingOut. Version: 0.2.0.6</Text>
+      <FilePath>999_ksp-recall/plugins/chillingout.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>Driftless. Version: 0.2.0.6</Text>
+      <FilePath>999_ksp-recall/plugins/driftless.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>KSP-Recall. Version: 0.2.0.6</Text>
+      <FilePath>999_ksp-recall/plugins/ksp-recall.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>KSPe.Light.Recall. Version: 2.3.0.4</Text>
+      <FilePath>999_ksp-recall/plugins/kspe.light.recall.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>LetsStayTogether. Version: 0.2.0.4</Text>
+      <FilePath>999_ksp-recall/plugins/letsstaytogether.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>Refunding. Version: 0.2.0.6</Text>
+      <FilePath>999_ksp-recall/plugins/refunding.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>Resourceful. Version: 0.2.0.6</Text>
+      <FilePath>999_ksp-recall/plugins/resourceful.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>BDArmory.Core. Version: 1.3.4.0</Text>
+      <FilePath>bdarmory/plugins/bdarmory.core.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>BDArmory. Version: 1.3.4.0</Text>
+      <FilePath>bdarmory/plugins/bdarmory.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>BDArmory.Events. Version: 1.0.0.0</Text>
+      <FilePath>bdarmory/plugins/bdarmory.events.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>BDArmory.Multiplayer. Version: 1.0.0.0</Text>
+      <FilePath>bdarmory/plugins/bdarmory.multiplayer.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
       <Text>CCK. Version: 5.1.0.0</Text>
       <FilePath>communitycategorykit/cck.dll</FilePath>
       <Sha></Sha>
     </DllFile>
     <DllFile>
+      <Text>DecouplerShroud. Version: 1.0.0.0</Text>
+      <FilePath>decouplershroud/decouplershroud.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
       <Text>FShangarExtender. Version: 1.0.0.0</Text>
       <FilePath>fshangarextender/fshangarextender.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>HangerExtenderExtended. Version: 3.6.0.1</Text>
+      <FilePath>fshangarextender/plugins/hangerextenderextended.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>HideEmptyTechTreeNodes. Version: 1.0.0.0</Text>
+      <FilePath>hideemptytechtreenodes/plugins/hideemptytechtreenodes.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>InterstellarFuelSwitch. Version: 3.29.4.0</Text>
+      <FilePath>interstellarfuelswitch/plugins/interstellarfuelswitch.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>MiniAVC. Version: 1.0.3.2</Text>
+      <FilePath>interstellarfuelswitch/plugins/miniavc.dll</FilePath>
       <Sha></Sha>
     </DllFile>
     <DllFile>
@@ -60,6 +150,16 @@
       <Sha></Sha>
     </DllFile>
     <DllFile>
+      <Text>WatchDogForInterstellarRedist. Version: 1.0.1.1</Text>
+      <FilePath>modulemanagerwatchdog/plugins/watchdogforinterstellarredist.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>WatchDogForScaleRedist. Version: 1.0.1.1</Text>
+      <FilePath>modulemanagerwatchdog/plugins/watchdogforscaleredist.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
       <Text>DockingPortAlignmentIndicator. Version: 6.10.0.0</Text>
       <FilePath>navyfish/plugins/docking port alignment indicator/dockingportalignmentindicator.dll</FilePath>
       <Sha></Sha>
@@ -75,6 +175,16 @@
       <Sha></Sha>
     </DllFile>
     <DllFile>
+      <Text>PhotonSail. Version: 1.7.3.0</Text>
+      <FilePath>photonsail/plugins/photonsail.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>PhysicsRangeExtender. Version: 1.21.0.0</Text>
+      <FilePath>physicsrangeextender/plugins/physicsrangeextender.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
       <Text>PlanetarySurfaceStructures. Version: 1.6.16.0</Text>
       <FilePath>planetarybaseinc/basesystem/plugins/planetarysurfacestructures.dll</FilePath>
       <Sha></Sha>
@@ -82,6 +192,61 @@
     <DllFile>
       <Text>SigmaDimensions. Version: 1.0.0.0</Text>
       <FilePath>sigmadimensions/plugins/sigmadimensions.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>KSPe.Light.TweakScale. Version: 2.4.0.4</Text>
+      <FilePath>tweakscale/plugins/kspe.light.tweakscale.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>Scale. Version: 2.4.6.2</Text>
+      <FilePath>tweakscale/plugins/scale.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>Scale.PartDB.13x. Version: 2.4.6.2</Text>
+      <FilePath>tweakscale/plugins/plugindata/scale.partdb.13x.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>Scale.PartDB.14x. Version: 2.4.6.2</Text>
+      <FilePath>tweakscale/plugins/plugindata/scale.partdb.14x.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>Scale.PartDB.15x. Version: 2.4.6.2</Text>
+      <FilePath>tweakscale/plugins/plugindata/scale.partdb.15x.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>Scale.PartDB.18x. Version: 2.4.6.2</Text>
+      <FilePath>tweakscale/plugins/plugindata/scale.partdb.18x.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>TweakScaleCompanion_Frameworks. Version: 0.2.0.0</Text>
+      <FilePath>tweakscalecompanion/frameworks/tweakscalecompanion_frameworks.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>TweakScalerWaterfallFX. Version: 0.2.0.0</Text>
+      <FilePath>tweakscalecompanion/frameworks/waterfall/tweakscalerwaterfallfx.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>TweakScalerWaterfallFXIntegrator. Version: 0.2.0.0</Text>
+      <FilePath>tweakscalecompanion/frameworks/waterfall/plugindata/tweakscalerwaterfallfxintegrator.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>Interstellar. Version: 1.29.6</Text>
+      <FilePath>warpplugin/plugins/interstellar.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>Waterfall. Version: 0.0.0.0</Text>
+      <FilePath>waterfall/plugins/waterfall.dll</FilePath>
       <Sha></Sha>
     </DllFile>
   </OptionalPlugins>
@@ -97,6 +262,136 @@
     <string>kerbalEVAfemaleFuture</string>
     <string>kerbalEVASlimSuit</string>
     <string>kerbalEVASlimSuitFemale</string>
+    <string>bahaGatlingGun</string>
+    <string>bahaTurret</string>
+    <string>bahaABL</string>
+    <string>bahaAdjustableRail</string>
+    <string>bahaAgm86B</string>
+    <string>bahaAim120</string>
+    <string>AMRAAM.EMP</string>
+    <string>bdPilotAI</string>
+    <string>bdShipAI</string>
+    <string>baha20mmAmmo</string>
+    <string>baha30mmAmmo</string>
+    <string>baha50CalAmmo</string>
+    <string>BDAcUniversalAmmoBox</string>
+    <string>bahaCannonShellBox</string>
+    <string>UniversalAmmoBoxBDA</string>
+    <string>BD1x1slopeArmor</string>
+    <string>BD2x1slopeArmor</string>
+    <string>BD1x1panelArmor</string>
+    <string>BD2x1panelArmor</string>
+    <string>BD3x1panelArmor</string>
+    <string>BD4x1panelArmor</string>
+    <string>awacsRadar</string>
+    <string>bdammGuidanceModule</string>
+    <string>bahaBrowningAnm2</string>
+    <string>bahaClusterBomb</string>
+    <string>bahaChaffPod</string>
+    <string>bahaCmPod</string>
+    <string>bahaECMJammer</string>
+    <string>bahaGau-8</string>
+    <string>bahaGoalKeeper</string>
+    <string>GoalKeeperBDAcMk1</string>
+    <string>BDAcGKmk2</string>
+    <string>scanLockRadar1</string>
+    <string>scanLargeRadar</string>
+    <string>bahaH70Launcher</string>
+    <string>bahaH70Turret</string>
+    <string>bahaHarm</string>
+    <string>bahaHEKV1</string>
+    <string>bahaAGM-114</string>
+    <string>HellfireEMP</string>
+    <string>bahaHiddenVulcan</string>
+    <string>bahaJdamMk83</string>
+    <string>bahaM102Howitzer</string>
+    <string>bahaM1Abrams</string>
+    <string>bahaM230ChainGun</string>
+    <string>bahaAGM-65</string>
+    <string>missileTurretTest</string>
+    <string>bahaMk82Bomb</string>
+    <string>bahaMk82BombBrake</string>
+    <string>bahaOMillennium</string>
+    <string>bahaPac-3</string>
+    <string>patriotLauncherTurret</string>
+    <string>radarDataReceiver</string>
+    <string>bdRadome1</string>
+    <string>bdRadome1GA</string>
+    <string>bdRadome1inline</string>
+    <string>bdRadome1inlineGA</string>
+    <string>bdRadome1snub</string>
+    <string>bdRadome1snubGA</string>
+    <string>bahaRBS-15Cruise</string>
+    <string>bahaRBS-15ALCruise</string>
+    <string>bdRotBombBay</string>
+    <string>bahaS-8Launcher</string>
+    <string>SaturnAL31</string>
+    <string>bahaAim9</string>
+    <string>bdWarheadSmall</string>
+    <string>bahaSmokeCmPod</string>
+    <string>BDAsonarPod1A</string>
+    <string>StingRayBDATorpedo</string>
+    <string>bahaFlirBall</string>
+    <string>bahaCamPod</string>
+    <string>towLauncherTurret</string>
+    <string>bahaTowMissile</string>
+    <string>missileController</string>
+    <string>ShroudedDecoupler</string>
+    <string>ifsBigSphereTank</string>
+    <string>EC2501-125</string>
+    <string>EC2501</string>
+    <string>EC2501-rad-1</string>
+    <string>EC2501-rad-2</string>
+    <string>IFSHexcansRadioactive</string>
+    <string>IFSHexcanSolid</string>
+    <string>KspiInflatableLiquidTank</string>
+    <string>ifsRadialCargoContainer</string>
+    <string>InterstellarSphereTank</string>
+    <string>RectlinearRoverAdaptorBattery</string>
+    <string>RectlinearRoverAdaptorGasTank</string>
+    <string>RectlinearRoverAdaptorLiquidTank</string>
+    <string>RectlinearRoverAdaptorSuperLithiumBattery</string>
+    <string>kspiSphericalTank55</string>
+    <string>kspiSphericalTank70</string>
+    <string>kspiSphericalTank88</string>
+    <string>kspiSphericalTank111</string>
+    <string>kspiSphericalTank140</string>
+    <string>CC2500</string>
+    <string>CC2501</string>
+    <string>CC2502</string>
+    <string>CC2503</string>
+    <string>CDT2001</string>
+    <string>CDT2002</string>
+    <string>CDT2003</string>
+    <string>CDT2011</string>
+    <string>CDT2012</string>
+    <string>CDT2013</string>
+    <string>CDT2500</string>
+    <string>CDT2501</string>
+    <string>CDT2502</string>
+    <string>CDT2503</string>
+    <string>CDT2504</string>
+    <string>CDT2505</string>
+    <string>CT2500</string>
+    <string>CT2501</string>
+    <string>CT2502</string>
+    <string>CT2503</string>
+    <string>CT2504</string>
+    <string>EC2502</string>
+    <string>EC2503</string>
+    <string>IST2501gas</string>
+    <string>IST2501lqd</string>
+    <string>PGT2501</string>
+    <string>RFC2500</string>
+    <string>RFC2501</string>
+    <string>RFC2502</string>
+    <string>ifsWetCrewCabin16</string>
+    <string>ifsWetCrewCabin32</string>
+    <string>IfsWrapperCap</string>
+    <string>IfsWrapperCap2</string>
+    <string>IfsWrapperTank96</string>
+    <string>IfsWrapperTank48</string>
+    <string>IfsWrapperTank24</string>
     <string>Engineer7500</string>
     <string>EngineerChip</string>
     <string>mumech.MJ2.AR202</string>
@@ -105,6 +400,13 @@
     <string>mumech.MJ2.AR202.features3</string>
     <string>mumech.MJ2.AR202.features4</string>
     <string>mumech.MJ2.Pod</string>
+    <string>aluminiumPhotonSail</string>
+    <string>dielectricPhotonSail</string>
+    <string>dipoleDrive</string>
+    <string>PhotonTransmitter</string>
+    <string>SM-Solar-Sail</string>
+    <string>goldPhotonSail</string>
+    <string>ThinFilmSolarCellSail</string>
     <string>KKAOSS.INV.Tank</string>
     <string>KKAOSS.INV.Tank.big</string>
     <string>KKAOSS.INV.FuelTank.small.2</string>
@@ -173,6 +475,58 @@
     <string>KKAOSS.small.Rocket.Fuel.Tank</string>
     <string>KKAOSS.ScienceJr.Tank</string>
     <string>KKAOSS.Xenon.Tank</string>
+    <string>sye-serviceBay3m</string>
+    <string>SYserviceBay3m</string>
+    <string>sye-serviceBay5m</string>
+    <string>SYserviceBay5m</string>
+    <string>sye-serviceBay7m</string>
+    <string>SYserviceBay7m</string>
+    <string>sye-probe7m</string>
+    <string>SYprobe7m</string>
+    <string>sye-vernier1</string>
+    <string>SYvernier1</string>
+    <string>sye-engine3mP1</string>
+    <string>SYengine3mP1</string>
+    <string>sye-engine5mP2</string>
+    <string>SYengine5mP2</string>
+    <string>sye-engine7mP4</string>
+    <string>SYengine7mP4</string>
+    <string>sye-fairing10m</string>
+    <string>SYfairing10m</string>
+    <string>sye-fairing7m</string>
+    <string>SYfairing7m</string>
+    <string>sye-heatShield7m</string>
+    <string>SYheatShield7m</string>
+    <string>syl-bay3m2m</string>
+    <string>SYbay3m2m</string>
+    <string>syl-bay5m3m</string>
+    <string>SYbay5m3m</string>
+    <string>syl-probe3m</string>
+    <string>SYprobe3m</string>
+    <string>syl-probe5m</string>
+    <string>SYprobe5m</string>
+    <string>syl-sasR3m</string>
+    <string>SYsasR3m</string>
+    <string>syl-sasR5m</string>
+    <string>SYsasR5m</string>
+    <string>syl-decoupler5m</string>
+    <string>SYdecoupler5m</string>
+    <string>syl-decouplerRadial1</string>
+    <string>SYdecouplerRadial1</string>
+    <string>syl-decouplerRadial2</string>
+    <string>SYdecouplerRadial2</string>
+    <string>syl-separator3m</string>
+    <string>SYseparator3m</string>
+    <string>syl-separator5m</string>
+    <string>SYseparator5m</string>
+    <string>syl-docking5m</string>
+    <string>SYdocking5m</string>
+    <string>syl-docking7m</string>
+    <string>SYdocking7m</string>
+    <string>syl-fairingBase5mP</string>
+    <string>SYfairingBase5mP</string>
+    <string>syl-heatShield5m</string>
+    <string>SYheatShield5m</string>
     <string>noseCone</string>
     <string>airbrake1</string>
     <string>airScoop</string>
@@ -526,8 +880,392 @@
     <string>roverWheel2</string>
     <string>wheelMed</string>
     <string>roverWheel3</string>
+    <string>BPDLA</string>
+    <string>BPFEL2</string>
+    <string>BPGyrotron</string>
+    <string>AblativeLaserNozzle</string>
+    <string>PivotedInfraredMirror</string>
+    <string>PivotedLightMirror</string>
+    <string>KspiInlinePhasedArray</string>
+    <string>InlineWrappedPhasedArray</string>
+    <string>deployablePhasedArray</string>
+    <string>KspiMicrowaveArray</string>
+    <string>DeployableMicrowaveInfraredRectenna</string>
+    <string>MicroWaveR.Radial</string>
+    <string>KspiSpherePhasedArray</string>
+    <string>KspiBlanketRectenna</string>
+    <string>CircularRectennaReceiver</string>
+    <string>KspiSolarBlanket</string>
+    <string>CircularSolarPhotovoltaicReceiver</string>
+    <string>KspieSolarPanel</string>
+    <string>FoldingThermalDish</string>
+    <string>heatfin</string>
+    <string>heatfin2</string>
+    <string>heatwing</string>
+    <string>heatwing2</string>
+    <string>InlineThermalReceiverDish</string>
+    <string>InlineWrappedThermalReceiver</string>
+    <string>microwaveThermalEnergyReceiverM</string>
+    <string>microwaveThermalEnergyReceiverS</string>
+    <string>microwaveThermalEnergyReceiverSM</string>
+    <string>MicrowaveThermalRecieverMk2</string>
+    <string>OversizedAluminiumThermalReceiverDish</string>
+    <string>OversizedAluminiumThermalReceiverDishEnd</string>
+    <string>KspieSIGINT</string>
+    <string>KspieSIGINTEnd</string>
+    <string>KspieSIGINT.End</string>
+    <string>ThermalReceiverDish</string>
+    <string>RadialAluminiumThermalDish</string>
+    <string>SolarMoltenSaltReceiver</string>
+    <string>KspiBlanketThermophotovoltaic</string>
+    <string>CircularThermophotovoltaicReceiver</string>
+    <string>DeployableThermalReceiver</string>
+    <string>PivotedThermoPhotovoltaicReceiver</string>
+    <string>microwaveSphereReceiver</string>
+    <string>KspiAirborneLaser</string>
+    <string>FELA</string>
+    <string>FELT</string>
+    <string>Laser.IR</string>
+    <string>LaserTransmitter</string>
+    <string>BT2502</string>
+    <string>MicrowaveRectenna2</string>
+    <string>MicroWaveTransducer2</string>
+    <string>OversizedMicrowaveDishTransciever</string>
+    <string>OversizedMicrowaveDishTranscieverEnd</string>
+    <string>BT2501</string>
+    <string>KspiUltravioletBlanket</string>
+    <string>CircularUltravioletPhotovoltaicReceiver</string>
+    <string>DeployableXrayReceiver</string>
+    <string>WrappedPhotovoltaicReceiver2</string>
+    <string>DoublePivotedXRayReceiver</string>
+    <string>KspiCentrifuge</string>
+    <string>KspiCommandCenterDome</string>
+    <string>computerCore</string>
+    <string>kspiDSD1</string>
+    <string>CDTcore</string>
+    <string>kspiIXSCommandModule</string>
+    <string>kspieCrewModule</string>
+    <string>kspieIXSScienceLab</string>
+    <string>kerbsteinMount</string>
+    <string>kspieScannerProbe</string>
+    <string>scienceModule</string>
+    <string>kspieSunShield</string>
+    <string>orbitalAssemblyDockingPort1000</string>
+    <string>orbitalAssemblyDockingPort2000</string>
+    <string>orbitalAssemblyDockingPort500</string>
+    <string>orbitalAssemblyDockingPort125</string>
+    <string>orbitalAssemblyDockingPort250</string>
+    <string>orbitalAssemblyDockingPort375</string>
+    <string>orbitalAssemblyDockingPort750</string>
+    <string>orbitalAssemblyDockingPort1500</string>
+    <string>CrossArcjet</string>
+    <string>KspieHeavyRCS</string>
+    <string>KspiDuelMountedArcjet45</string>
+    <string>KspiMountedArcjet90</string>
+    <string>KspiPerpindicularMountedArcjet</string>
+    <string>ArcjetInlineRcs</string>
+    <string>ArcjetInlineRcsPass</string>
+    <string>InterstellarRcs5block</string>
+    <string>InterstellarRcsCorner</string>
+    <string>OmniArcjetRCS</string>
+    <string>InterstellarRcsTank</string>
+    <string>kspiServiceModulSM500</string>
+    <string>InterstellarRetractableRcsBlockCurvedFlat</string>
+    <string>InterstellarRetractableRcsBlockCurved</string>
+    <string>AntimatterCollector</string>
+    <string>kspiWarpCoreUnit</string>
+    <string>kspiWarpCoreUnit2</string>
+    <string>TweakableAntimatterReactor</string>
+    <string>TweakableAntimatterReactor2</string>
+    <string>CompactFNGenerator</string>
+    <string>LargeFNGeneratorMk1</string>
+    <string>SmallFNGeneratorMk1</string>
+    <string>FNFissionFusionCatReactorMk1</string>
+    <string>DPFFReactor</string>
+    <string>DPFFReactor2</string>
+    <string>FissionFusionHybridMoltenSaltReactor</string>
+    <string>mousefissionkspi</string>
+    <string>FIRGaCo</string>
+    <string>IXSMainHullReactor</string>
+    <string>FutureFusionReactor</string>
+    <string>FURMagTar</string>
+    <string>FURMaCoSt2</string>
+    <string>FURMaCoTo</string>
+    <string>MHDGenerator</string>
+    <string>MuonCatFusionReactor2</string>
+    <string>MoltenSaltReactor</string>
+    <string>KspiPebbleBed</string>
+    <string>PlasmaJetMagnetoInertialReactor</string>
+    <string>KspiQuantumSingulaityReactor2</string>
+    <string>ThermalAntimatterReactor</string>
+    <string>KspiTriAlphaFusionReactor</string>
+    <string>AluminiumLiquidMetalEngine</string>
+    <string>AluminiumMonopropellantEngine</string>
+    <string>AluminiumPneumaticEngine</string>
+    <string>AntimatterBeamCore</string>
+    <string>KspiAntimatterPlasmaEngine</string>
+    <string>kspi.ARD</string>
+    <string>FNSmallAugmentedArcjet</string>
+    <string>BussardEngine2</string>
+    <string>DeadalusEngine</string>
+    <string>kspiDaedalus</string>
+    <string>kspiDiscovery</string>
+    <string>kspiDiscoveryMCF</string>
+    <string>kspiElf</string>
+    <string>KspiEmDrive</string>
+    <string>OpenCycleGasCoreRocket2</string>
+    <string>kspiHalberd</string>
+    <string>kspiIHRMOR7HRM</string>
+    <string>kspiIHRMOR7HRMhalf</string>
+    <string>InterstellarNuclearSaltWaterRocket</string>
+    <string>KspiNuclearCandle</string>
+    <string>KspiNuclearCandle2</string>
+    <string>KspiEpsteinUDD</string>
+    <string>kerbsteinDrive1</string>
+    <string>KspiLANTR</string>
+    <string>KspiLightbulb3</string>
+    <string>LiquidCoreEngine2</string>
+    <string>macheffeng</string>
+    <string>magNozzle1</string>
+    <string>KspiMagneticNozzle</string>
+    <string>KspiMagneticNozzle3</string>
+    <string>FNMethaneEngine</string>
+    <string>FNMethaneEngine2</string>
+    <string>DiatomicMetastableHeliumEngine</string>
+    <string>kspiMhEngine1</string>
+    <string>kspiMhEngine2</string>
+    <string>kspieMhEngine3</string>
+    <string>kspieMhEngine4</string>
+    <string>KspiMIFEngine</string>
+    <string>KspiMiniMagOrion</string>
+    <string>TRN23R</string>
+    <string>KspiNuclearSaltWaterRocket</string>
+    <string>KspieNuclearSaltWaterMixer</string>
+    <string>KspiNuclearRamjetOx</string>
+    <string>KspiNuclearJetEngineOx</string>
+    <string>KspiPlasmaWakefieldAccelerator</string>
+    <string>FNRutherford</string>
+    <string>FNRutherfordAtmosphere</string>
+    <string>kspiSage</string>
+    <string>kspiSurge</string>
+    <string>ThermalTurboJetVTOL</string>
+    <string>ThermalTurboJetVTOL2</string>
+    <string>ThermalLaunchNozzle</string>
+    <string>ThermalRamjetNozzleOx</string>
+    <string>KspiThermalTurbojetOx</string>
+    <string>KspiThermalTurbojet</string>
+    <string>Timberwind</string>
+    <string>kspiToroidalAerospike</string>
+    <string>ThermalAirospikeHybrid</string>
+    <string>VARIES</string>
+    <string>KSPIE-VASIMR</string>
+    <string>KSPIE-VASIMR2</string>
+    <string>VISTAEngine3</string>
+    <string>VISTAEngine</string>
+    <string>kspieRamjet2m</string>
+    <string>ZPinchFusionAirospike2</string>
+    <string>ZPinchFusionEngine2</string>
+    <string>KspiIXSWarpRing</string>
+    <string>KspiIXSWarpRing2</string>
+    <string>WarpDrive</string>
+    <string>KspiWarpDrive</string>
+    <string>AntimatterTank125</string>
+    <string>AntimatterTank250</string>
+    <string>DiamagneticAntimatterTrap</string>
+    <string>CPT2501</string>
+    <string>mhRadialTank1</string>
+    <string>mhTank1</string>
+    <string>mhTank4</string>
+    <string>PositronsTank125</string>
+    <string>PositronsTank250</string>
+    <string>FNAntimatterBottle</string>
+    <string>HexCanDepletedFuel</string>
+    <string>HexCanDeutTritLarge</string>
+    <string>HexCanHe3Large</string>
+    <string>HexaboraneTank</string>
+    <string>HexCanLithium</string>
+    <string>HexCanLithium6</string>
+    <string>HexCanThorium</string>
+    <string>HexCanThoriumFl4</string>
+    <string>HexCanUraniumFl6</string>
+    <string>HexCanUraniumN</string>
+    <string>HexCanUraniumTetFl</string>
+    <string>ToroidalAntiprotonAntimatterTank</string>
+    <string>ToroidalPositronAntimatterTank</string>
+    <string>ToroidalTankHub</string>
+    <string>activeCoolingSystemv3</string>
+    <string>GrapheneRadiatorBlanket</string>
+    <string>circradiatorKT</string>
+    <string>circradiatorKThalf</string>
+    <string>KspiCloverRadiator</string>
+    <string>KspiRadiatorConformal</string>
+    <string>KspiRadPanelEdge</string>
+    <string>KspiRadPanelEdge2</string>
+    <string>KspiRadPanelEdge3</string>
+    <string>FlatSkinGrapheneRadiator</string>
+    <string>SmallFlatRadiator</string>
+    <string>FlatSkinTitaniumRadiator</string>
+    <string>KspiFoldingRadLarge</string>
+    <string>KspiFoldingRadMed</string>
+    <string>KspiFoldingRadSmall</string>
+    <string>HeatPumpDrill</string>
+    <string>LargeFlatRadiator</string>
+    <string>LargeFlatRadiator2</string>
+    <string>KspLongFixedRadiator</string>
+    <string>KspLongFixedRadiatorSpace</string>
+    <string>RadialRadiatorzzz</string>
+    <string>KspiRadPanelLg</string>
+    <string>KspiRadPanelSm</string>
+    <string>radiator1</string>
+    <string>KspiRadiatorSurfaceSquare</string>
+    <string>KspiRadiatorSurfaceLong2</string>
+    <string>KspiRadiatorSurfaceLong3</string>
+    <string>KspiRadiatorSurfaceLong1</string>
+    <string>KspiRadiatorSurfaceHalf</string>
+    <string>InlineRadiatorWrap</string>
+    <string>staticRadiatortruss1</string>
+    <string>staticRadiatortruss2</string>
+    <string>UmbrellaRadiatorGE1600</string>
+    <string>KspiWideFixedRadiator</string>
+    <string>KspiWrapAroundRadialRadiator</string>
+    <string>KspiWrapAroundRadialRadiatorHalf</string>
+    <string>sensorGammaRaySpectrometer</string>
+    <string>KspiInfraredTelescope</string>
+    <string>kspieIXSAntimatterCollector</string>
+    <string>kspieIXSLaser</string>
+    <string>kspieIXSUniversalScoop</string>
+    <string>kspieIXSSensor</string>
+    <string>KspiSampleDrill</string>
+    <string>FNIRTelescope</string>
+    <string>KspieCubicTruss10</string>
+    <string>KspieCubicTruss1</string>
+    <string>KspieCubicTruss20</string>
+    <string>KspiCubicTruss2</string>
+    <string>KspieCubicTruss3</string>
+    <string>KspieCubicTruss5</string>
+    <string>KspieCubicTrussAdapterLarge</string>
+    <string>KspieCubicTrussAdapterLong</string>
+    <string>KspieCubicTrussAdapterShort</string>
+    <string>KspieCubicTrussHalf</string>
+    <string>KspieCubicTrussHub</string>
+    <string>KspiNASAaeroShield</string>
+    <string>LH.IcarusDockingNode</string>
+    <string>kspieFairing</string>
+    <string>KspieFlushRadialMount</string>
+    <string>kspieHeatshield</string>
+    <string>KspieNode</string>
+    <string>kspieSpeedOTron625</string>
+    <string>kspieSpeedOTron125</string>
+    <string>kspieSpeedOTron250</string>
+    <string>kspieSpeedOTron375</string>
+    <string>kspieRadialEngineMount</string>
+    <string>kspiStructuralDisk</string>
+    <string>LH.IcarusTruss</string>
+    <string>LH.IcarusTruss13</string>
+    <string>LH.IcarusTruss2</string>
+    <string>LH.IcarusTruss21</string>
+    <string>LH.IcarusTruss3</string>
+    <string>LH.IcarusTruss5</string>
+    <string>LH.IcarusTruss8</string>
+    <string>LH.IcarusTrussEnd</string>
+    <string>KspiCyclotron</string>
+    <string>antprocess</string>
+    <string>125anticoll</string>
+    <string>fixedanticoll</string>
+    <string>positronFactory</string>
+    <string>DTMagnetometer</string>
+    <string>FNGCMS</string>
+    <string>KSPI.Hex.Container</string>
+    <string>KSPIE.Hex.Core.Pass</string>
+    <string>KSPIE.Hex.Core.Tank</string>
+    <string>KSPIE.Hex.Elektron</string>
+    <string>KSPIE.Hex.HaberBosch</string>
+    <string>KSPIE.Hex.PSA</string>
+    <string>KSPI.Hex.Radioactive.Container</string>
+    <string>KSPIE.Hex.Sabatier</string>
+    <string>KSPIE.Hex.Tank</string>
+    <string>KSPIE.Hex.Tank.b</string>
+    <string>KspiISRU</string>
+    <string>AluminiumISRU</string>
+    <string>ISRU.Converter</string>
+    <string>ISRU.Electrolyzer</string>
+    <string>kspiISRUFabricator</string>
+    <string>NuclearSaltWaterISRU</string>
+    <string>KSPI.ISRU.Processor</string>
+    <string>KSPI.ISRU.Processor.Large</string>
+    <string>KSPI.ISRU.Refrigerator</string>
+    <string>kspieIXScommDish</string>
+    <string>FNLCMS</string>
+    <string>kspieMagneticScoop</string>
+    <string>mhAnvil1</string>
+    <string>kspieParticleScoop</string>
+    <string>RadialAtmosphericScoop</string>
+    <string>RegolithDrill</string>
+    <string>UniversalDrill</string>
+    <string>KspiXLAuger</string>
   </AllowedParts>
   <AllowedResources>
+    <string>RefundingForKSP111x</string>
+    <string>Armor</string>
+    <string>LaserBolt</string>
+    <string>7.62x39Ammo</string>
+    <string>7.7x56Ammo</string>
+    <string>7.92x57mmMauser</string>
+    <string>9x19mmParaAmmo</string>
+    <string>50CalAmmo</string>
+    <string>20x21Ammo</string>
+    <string>20x102Ammo</string>
+    <string>20x163Ammo</string>
+    <string>23x115Ammo</string>
+    <string>23x152Ammo</string>
+    <string>25x137Ammo</string>
+    <string>30x165Ammo</string>
+    <string>30x173Ammo</string>
+    <string>30x173HEAmmo</string>
+    <string>37mmFlaKAmmo</string>
+    <string>40x53Ammo</string>
+    <string>40x53HeAmmo</string>
+    <string>40x311Ammo</string>
+    <string>54cmMortarShells</string>
+    <string>57x438Ammo</string>
+    <string>TungstenShell</string>
+    <string>75x714Ammo</string>
+    <string>76x636Ammo</string>
+    <string>3inchShells</string>
+    <string>90mmShells</string>
+    <string>100mmShells</string>
+    <string>CannonShells</string>
+    <string>105mmShells</string>
+    <string>105mmHEShells</string>
+    <string>4p5inchQFShells</string>
+    <string>120mmAmmo</string>
+    <string>122mmQFShells</string>
+    <string>130Shells</string>
+    <string>5/62Shell</string>
+    <string>QF5-25Shell</string>
+    <string>138_140Shells</string>
+    <string>152Shells</string>
+    <string>155Shells</string>
+    <string>180Shells</string>
+    <string>203Shells</string>
+    <string>12inShells</string>
+    <string>356ApAmmo</string>
+    <string>356Shells</string>
+    <string>380Shells</string>
+    <string>M65ShellAmmo</string>
+    <string>406mmNuclearShells</string>
+    <string>16inchShells</string>
+    <string>460Shells</string>
+    <string>11inShells</string>
+    <string>Type4Rocket</string>
+    <string>ATRocket</string>
+    <string>Hades122rocket</string>
+    <string>Hydra70Rocket</string>
+    <string>S-8KOMRocket</string>
+    <string>CMFlare</string>
+    <string>CMSmoke</string>
+    <string>CMChaff</string>
+    <string>HighExplosive</string>
     <string>Hydrates</string>
     <string>Gypsum</string>
     <string>IntakeLqd</string>
@@ -698,6 +1436,113 @@
     <string>UH25</string>
     <string>Glykerol</string>
     <string>FusionPellets</string>
+    <string>_Dymmy</string>
+    <string>_LqdAmmoniaBoiloff</string>
+    <string>_LqdAmmoniaHeating</string>
+    <string>_LqdAmmoniaCooling</string>
+    <string>_LqdArgonBoiloff</string>
+    <string>_LqdArgonHeating</string>
+    <string>_LqdArgonCooling</string>
+    <string>_AluLOxBoiloff</string>
+    <string>_AluLOxHeating</string>
+    <string>_AluLOxCooling</string>
+    <string>_LqdCO2Boiloff</string>
+    <string>_LqdCO2Heating</string>
+    <string>_LqdCO2Cooling</string>
+    <string>_LqdCOBoiloff</string>
+    <string>_LqdCOHeating</string>
+    <string>_LqdCOCooling</string>
+    <string>_LqDeuteriumBoiloff</string>
+    <string>_LqDeuteriumHeating</string>
+    <string>_LqDeuteriumCooling</string>
+    <string>_DiboraneBoiloff</string>
+    <string>_DiboraneHeating</string>
+    <string>_DiboraneCooling</string>
+    <string>_LqdFluorineBoiloff</string>
+    <string>_LqdFluorineHeating</string>
+    <string>_LqdFluorineCooling</string>
+    <string>_FusionPelletsBoiloff</string>
+    <string>_FusionPelletsHeating</string>
+    <string>_FusionPelletsCooling</string>
+    <string>_LqdHe3Boiloff</string>
+    <string>_LqdHe3Heating</string>
+    <string>_LqdHe3Cooling</string>
+    <string>_LqdHeliumBoiloff</string>
+    <string>_LqdHeliumHeating</string>
+    <string>_LqdHeliumCooling</string>
+    <string>_HexaboraneBoiloff</string>
+    <string>_HexaboraneHeating</string>
+    <string>_HexaboraneCooling</string>
+    <string>_HydrazineBoiloff</string>
+    <string>_HydrazineHeating</string>
+    <string>_HydrazineCooling</string>
+    <string>_LqdHydrogenBoiloff</string>
+    <string>_LqdHydrogenHeating</string>
+    <string>_LqdHydrogenCooling</string>
+    <string>_SolidHydrogenBoiloff</string>
+    <string>_SolidHydrogenHeating</string>
+    <string>_SolidHydrogenCooling</string>
+    <string>_HTPBoiloff</string>
+    <string>_HTPHeating</string>
+    <string>_HTPCooling</string>
+    <string>_KeroseneBoiloff</string>
+    <string>_KeroseneHeating</string>
+    <string>_KeroseneCooling</string>
+    <string>_LqdKryptonBoiloff</string>
+    <string>_LqdKryptonHeating</string>
+    <string>_LqdKryptonCooling</string>
+    <string>_LqdNeonBoiloff</string>
+    <string>_LqdNeonHeating</string>
+    <string>_LqdNeonCooling</string>
+    <string>_NTOBoiloff</string>
+    <string>_NTOHeating</string>
+    <string>_NTOCooling</string>
+    <string>_LqdMethaneBoiloff</string>
+    <string>_LqdMethaneHeating</string>
+    <string>_LqdMethaneCooling</string>
+    <string>_LqdNitrogenBoiloff</string>
+    <string>_LqdNitrogenHeating</string>
+    <string>_LqdNitrogenCooling</string>
+    <string>_LqdNitrogen15Boiloff</string>
+    <string>_LqdNitrogen15Heating</string>
+    <string>_LqdNitrogen15Cooling</string>
+    <string>_LqdOxygenBoiloff</string>
+    <string>_LqdOxygenHeating</string>
+    <string>_LqdOxygenCooling</string>
+    <string>_LqdOxygen18Boiloff</string>
+    <string>_LqdOxygen18Heating</string>
+    <string>_LqdOxygen18Cooling</string>
+    <string>_LqdTritiumBoiloff</string>
+    <string>_LqdTritiumHeating</string>
+    <string>_LqdTritiumCooling</string>
+    <string>_LqdWaterBoiloff</string>
+    <string>_LqdWaterHeating</string>
+    <string>_LqdWaterCooling</string>
+    <string>_HeavyWaterBoiloff</string>
+    <string>_HeavyWaterHeating</string>
+    <string>_HeavyWaterCooling</string>
+    <string>_LqdXenonBoiloff</string>
+    <string>_LqdXenonHeating</string>
+    <string>_LqdXenonCooling</string>
+    <string>DiatomicMetastableHelium</string>
+    <string>FissionProducts</string>
+    <string>AluLOx</string>
+    <string>Shielding</string>
+    <string>Beryllium</string>
+    <string>UraniumTetrabromide</string>
+    <string>Plutonium-239</string>
+    <string>Uranium-235</string>
+    <string>Protactinium-233</string>
+    <string>Uranium-233</string>
+    <string>Buckyballs</string>
+    <string>StoredPower</string>
+    <string>NuclearSaltWater</string>
+    <string>FissionParticles</string>
+    <string>FissionPellets</string>
+    <string>KilowattHour</string>
+    <string>LqdWater</string>
+    <string>SaltWater</string>
+    <string>LiterVolume</string>
     <string>MJPropellant</string>
     <string>_KPBS_reprocessor_Centrifuge</string>
     <string>_KPBS_xenonextractor_Centrifuge</string>
@@ -713,5 +1558,22 @@
     <string>EVA Propellant</string>
     <string>Ore</string>
     <string>Ablator</string>
+    <string>_FusionPelletsToEc</string>
+    <string>_RefillMjPowerBuffer</string>
+    <string>_MjPowerBuffer</string>
+    <string>_MjPowerBufferToEc</string>
+    <string>_FusionPelletsMhdEcPower</string>
+    <string>_KwhToEc</string>
+    <string>_EcToKwh</string>
+    <string>_FissionUF4_EC</string>
+    <string>_FissionUF4</string>
+    <string>_Lithium6Breeder</string>
+    <string>_HighPowerECGen</string>
+    <string>ChargedPower</string>
+    <string>UltraDenseDeuterium</string>
+    <string>Mercury</string>
+    <string>Phosphorus</string>
+    <string>Positrons</string>
+    <string>MtlHydrogen</string>
   </AllowedResources>
 </ModControlStructure>

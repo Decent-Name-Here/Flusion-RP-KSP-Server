@@ -18,7 +18,7 @@
   </SettingItem>
   <SettingItem>
     <Name>resourcesOpen</Name>
-    <Value xsi:type="xsd:boolean">true</Value>
+    <Value xsi:type="xsd:boolean">false</Value>
   </SettingItem>
   <SettingItem>
     <Name>vesselWindowX</Name>

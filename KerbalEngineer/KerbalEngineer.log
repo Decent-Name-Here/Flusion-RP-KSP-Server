@@ -1,20 +1,59 @@
 Executing: KerbalEngineer - 1.1.9.0
-Assembly: D:\Game Mega Folder yes\Steam\steamapps\common\Kerbal Space Program\GameData\KerbalEngineer\KerbalEngineer.dll
+Assembly: O:\Steam\steamapps\common\Kerbal Space Program\GameData\KerbalEngineer\KerbalEngineer.dll
 
-[Log 23:00:58.8942243]: images (UnityEngine.AssetBundle)
-[Log 23:01:55.8530816]: Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[Log 03:52:25.4633693]: images (UnityEngine.AssetBundle)
+[Log 03:59:45.7017041]: Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: ModuleManagerWatchDog, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: Scale_Redist, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: Interstellar_Redist, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null
 Assembly: KSPModFileLocalizer, Version=0.2.3.8, Culture=neutral, PublicKeyToken=null
-Assembly: ModuleManager.2.8.1, Version=2.8.1.0, Culture=neutral, PublicKeyToken=null
-Assembly: ModuleManager, Version=4.1.3.0, Culture=neutral, PublicKeyToken=null
-Assembly: ModuleManager, Version=4.1.3.0, Culture=neutral, PublicKeyToken=null
+Assembly: MiniAVC, Version=1.0.3.2, Culture=neutral, PublicKeyToken=null
+Assembly: ModuleManager, Version=4.2.2.0, Culture=neutral, PublicKeyToken=null
+Assembly: ClickThroughBlocker, Version=2.1.10.21, Culture=neutral, PublicKeyToken=null
+Assembly: FilterExtensions, Version=3.2.6.0, Culture=neutral, PublicKeyToken=null
 Assembly: 0Harmony, Version=2.0.4.0, Culture=neutral, PublicKeyToken=null
 Assembly: HarmonyInstallChecker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: KSPBurst, Version=1.5.5.1, Culture=neutral, PublicKeyToken=null
+Assembly: Microsoft.Extensions.FileSystemGlobbing, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+Assembly: System.IO.Compression, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Assembly: System.IO.Compression.FileSystem, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Assembly: System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Assembly: System.Runtime, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Assembly: Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: Unity.Burst.Unsafe, Version=4.0.5.0, Culture=neutral, PublicKeyToken=null
+Assembly: Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: Unity.Jobs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: ToolbarControl, Version=0.1.9.9, Culture=neutral, PublicKeyToken=null
+Assembly: KSPe.Light.Recall, Version=2.3.0.4, Culture=neutral, PublicKeyToken=null
+Assembly: Attached, Version=0.2.0.6, Culture=neutral, PublicKeyToken=null
+Assembly: ChillingOut, Version=0.2.0.6, Culture=neutral, PublicKeyToken=null
+Assembly: Driftless, Version=0.2.0.6, Culture=neutral, PublicKeyToken=null
+Assembly: KSP-Recall, Version=0.2.0.6, Culture=neutral, PublicKeyToken=null
+Assembly: LetsStayTogether, Version=0.2.0.4, Culture=neutral, PublicKeyToken=null
+Assembly: Refunding, Version=0.2.0.6, Culture=neutral, PublicKeyToken=null
+Assembly: Resourceful, Version=0.2.0.6, Culture=neutral, PublicKeyToken=null
+Assembly: B9PartSwitch, Version=2.20.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: BDArmory.Core, Version=1.3.4.0, Culture=neutral, PublicKeyToken=null
+Assembly: BDArmory, Version=1.3.4.0, Culture=neutral, PublicKeyToken=null
+Assembly: BDArmory.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: BDArmory.Multiplayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Assembly: CCK, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: DecouplerShroud, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: Launchpad, Version=6.99.3.0, Culture=neutral, PublicKeyToken=null
+Assembly: FerramAerospaceResearch.Base, Version=0.16.1.1, Culture=neutral, PublicKeyToken=null
+Assembly: ModularFlightIntegrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: FerramAerospaceResearch, Version=0.16.1.1, Culture=neutral, PublicKeyToken=null
+Assembly: ferramGraph, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: Scale_Redist, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Assembly: FShangarExtender, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: HangerExtenderExtended, Version=3.6.0.1, Culture=neutral, PublicKeyToken=null
+Assembly: HideEmptyTechTreeNodes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: InterstellarFuelSwitch, Version=3.29.4.0, Culture=neutral, PublicKeyToken=null
 Assembly: KerbalEngineer.Unity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Assembly: KerbalEngineer, Version=1.1.9.0, Culture=neutral, PublicKeyToken=null
+Assembly: KerbalJointReinforcementNext, Version=4.1.19.0, Culture=neutral, PublicKeyToken=null
 Assembly: Kopernicus.Parser, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-Assembly: ModularFlightIntegrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Assembly: Kopernicus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Assembly: CachedQuickLz, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
 Assembly: JsonFx, Version=2.0.1209.2802, Culture=neutral, PublicKeyToken=315052dd637f8a52
@@ -23,16 +62,169 @@ Assembly: LmpClient, Version=0.29.0.577, Culture=neutral, PublicKeyToken=null
 Assembly: System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
 Assembly: System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
 Assembly: System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
-Assembly: System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 Assembly: System.Runtime.Serialization, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 Assembly: MechJeb2, Version=2.5.1.0, Culture=neutral, PublicKeyToken=null
+Assembly: WatchDogForInterstellarRedist, Version=1.0.1.1, Culture=neutral, PublicKeyToken=null
+Assembly: WatchDogForScaleRedist, Version=1.0.1.1, Culture=neutral, PublicKeyToken=null
 Assembly: DockingPortAlignmentIndicator, Version=6.10.0.0, Culture=neutral, PublicKeyToken=null
 Assembly: DPAI_RPM, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null
 Assembly: ModuleDockingNodeNamed, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null
+Assembly: PhotonSail, Version=1.7.3.0, Culture=neutral, PublicKeyToken=null
+Assembly: PhysicsRangeExtender, Version=1.21.0.0, Culture=neutral, PublicKeyToken=null
 Assembly: PlanetarySurfaceStructures, Version=1.6.16.0, Culture=neutral, PublicKeyToken=null
 Assembly: SigmaDimensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: SimpleLogistics, Version=2.0.6.0, Culture=neutral, PublicKeyToken=null
 Assembly: KSPSteamCtrlr, Version=0.0.1.35, Culture=neutral, PublicKeyToken=null
+Assembly: KSPe.Light.TweakScale, Version=2.4.0.4, Culture=neutral, PublicKeyToken=null
+Assembly: Scale, Version=2.4.6.2, Culture=neutral, PublicKeyToken=null
+Assembly: TweakScaleCompanion_Frameworks, Version=0.2.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: Waterfall, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: TweakScalerWaterfallFX, Version=0.2.0.0, Culture=neutral, PublicKeyToken=null
+Assembly: Interstellar, Version=1.29.6.0, Culture=neutral, PublicKeyToken=null
 
-[Log 23:01:55.8530816]: FlightEngineerCore->Awake
-[Log 23:01:58.9703711]: FlightEngineerCore->Start
-[Log 23:02:37.3529282]: FlightEngineerCore->OnDestroy
+[Log 03:59:45.7022032]: FlightEngineerCore->Awake
+[Log 03:59:55.5864990]: FlightEngineerCore->Start
+[Log 04:00:04.2598505]: FlightEngineerCore->OnDestroy
+[Log 04:00:11.1368446]: ActionMenu->Awake
+[Log 04:00:11.1368446]: FlightEngineerCore->Awake
+[Log 04:00:22.5310875]: ActionMenu->Start
+[Log 04:00:22.6054493]: FlightEngineerCore->Start
+[04:03:40.5811860]: Exception DisplayStack->Window // System.NullReferenceException: Object reference not set to an instance of an object
+  at KerbalEngineer.Flight.Readouts.Body.GeostationaryHeight.Draw (KerbalEngineer.Unity.Flight.ISectionModule section) [0x00000] in <134deb60e87843589b7ea1a020650b28>:0 
+  at KerbalEngineer.Flight.Sections.SectionModule.DrawReadoutModules () [0x0004a] in <134deb60e87843589b7ea1a020650b28>:0 
+  at KerbalEngineer.Flight.Sections.SectionModule.Draw () [0x00017] in <134deb60e87843589b7ea1a020650b28>:0 
+  at KerbalEngineer.Flight.DisplayStack.DrawSections (System.Collections.Generic.IEnumerable`1[T] sections) [0x00018] in <134deb60e87843589b7ea1a020650b28>:0 
+  at KerbalEngineer.Flight.DisplayStack.Window (System.Int32 windowId) [0x0001c] in <134deb60e87843589b7ea1a020650b28>:0 
+[]:   at KerbalEngineer.Flight.Readouts.Body.GeostationaryHeight.Draw (KerbalEngineer.Unity.Flight.ISectionModule section) [0x00000] in <134deb60e87843589b7ea1a020650b28>:0 
+  at KerbalEngineer.Flight.Sections.SectionModule.DrawReadoutModules () [0x0004a] in <134deb60e87843589b7ea1a020650b28>:0 
+  at KerbalEngineer.Flight.Sections.SectionModule.Draw () [0x00017] in <134deb60e87843589b7ea1a020650b28>:0 
+  at KerbalEngineer.Flight.DisplayStack.DrawSections (System.Collections.Generic.IEnumerable`1[T] sections) [0x00018] in <134deb60e87843589b7ea1a020650b28>:0 
+  at KerbalEngineer.Flight.DisplayStack.Window (System.Int32 windowId) [0x0001c] in <134deb60e87843589b7ea1a020650b28>:0 
+
+[04:03:40.5961739]: Exception DisplayStack->Window // System.ArgumentException: Getting control 3's position in a group with only 3 controls when doing repaint
+Aborting
+  at UnityEngine.GUILayoutGroup.GetNext () [0x000a0] in <58f888e0d56a4620958c8e58a768c70d>:0 
+  at UnityEngine.GUILayoutUtility.DoGetRect (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00143] in <58f888e0d56a4620958c8e58a768c70d>:0 
+  at UnityEngine.GUILayoutUtility.GetRect (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00001] in <58f888e0d56a4620958c8e58a768c70d>:0 
+  at UnityEngine.GUILayout.DoToggle (System.Boolean value, UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00001] in <58f888e0d56a4620958c8e58a768c70d>:0 
+  at UnityEngine.GUILayout.Toggle (System.Boolean value, System.String text, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00008] in <58f888e0d56a4620958c8e58a768c70d>:0 
+  at KerbalEngineer.Flight.DisplayStack.DrawControlBarButtons (System.Collections.Generic.IEnumerable`1[T] sections) [0x00061] in <134deb60e87843589b7ea1a020650b28>:0 
+  at KerbalEngineer.Flight.DisplayStack.DrawControlBar () [0x00032] in <134deb60e87843589b7ea1a020650b28>:0 
+  at KerbalEngineer.Flight.DisplayStack.Window (System.Int32 windowId) [0x00008] in <134deb60e87843589b7ea1a020650b28>:0 
+[]:   at UnityEngine.GUILayoutGroup.GetNext () [0x000a0] in <58f888e0d56a4620958c8e58a768c70d>:0 
+  at UnityEngine.GUILayoutUtility.DoGetRect (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00143] in <58f888e0d56a4620958c8e58a768c70d>:0 
+  at UnityEngine.GUILayoutUtility.GetRect (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00001] in <58f888e0d56a4620958c8e58a768c70d>:0 
+  at UnityEngine.GUILayout.DoToggle (System.Boolean value, UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00001] in <58f888e0d56a4620958c8e58a768c70d>:0 
+  at UnityEngine.GUILayout.Toggle (System.Boolean value, System.String text, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00008] in <58f888e0d56a4620958c8e58a768c70d>:0 
+  at KerbalEngineer.Flight.DisplayStack.DrawControlBarButtons (System.Collections.Generic.IEnumerable`1[T] sections) [0x00061] in <134deb60e87843589b7ea1a020650b28>:0 
+  at KerbalEngineer.Flight.DisplayStack.DrawControlBar () [0x00032] in <134deb60e87843589b7ea1a020650b28>:0 
+  at KerbalEngineer.Flight.DisplayStack.Window (System.Int32 windowId) [0x00008] in <134deb60e87843589b7ea1a020650b28>:0 
+
+[Log 04:03:41.0928536]: ActionMenu->OnDestroy
+[Log 04:03:41.1377706]: FlightEngineerCore->OnDestroy
+[Log 04:03:47.5367957]: FlightEngineerCore->Awake
+[Log 04:03:55.1034000]: FlightEngineerCore->Start
+[Log 04:04:45.9750968]: FlightEngineerCore->OnDestroy
+[Log 04:04:51.8755820]: ActionMenu->Awake
+[Log 04:04:51.8755820]: FlightEngineerCore->Awake
+[Log 04:05:08.4930173]: ActionMenu->Start
+[Log 04:05:08.5194684]: FlightEngineerCore->Start
+[04:08:17.2053711]: Exception SimManager.StartSimulation() // System.NullReferenceException: Object reference not set to an instance of an object
+  at KerbalEngineer.VesselSimulator.SimManager.StartSimulation () [0x00054] in <134deb60e87843589b7ea1a020650b28>:0 
+[]:   at KerbalEngineer.VesselSimulator.SimManager.StartSimulation () [0x00054] in <134deb60e87843589b7ea1a020650b28>:0 
+
+[04:08:17.5604351]: Exception DisplayStack->Window // System.NullReferenceException: Object reference not set to an instance of an object
+  at KerbalEngineer.Flight.Readouts.Body.GeostationaryHeight.Draw (KerbalEngineer.Unity.Flight.ISectionModule section) [0x00000] in <134deb60e87843589b7ea1a020650b28>:0 
+  at KerbalEngineer.Flight.Sections.SectionModule.DrawReadoutModules () [0x0004a] in <134deb60e87843589b7ea1a020650b28>:0 
+  at KerbalEngineer.Flight.Sections.SectionModule.Draw () [0x00017] in <134deb60e87843589b7ea1a020650b28>:0 
+  at KerbalEngineer.Flight.DisplayStack.DrawSections (System.Collections.Generic.IEnumerable`1[T] sections) [0x00018] in <134deb60e87843589b7ea1a020650b28>:0 
+  at KerbalEngineer.Flight.DisplayStack.Window (System.Int32 windowId) [0x0001c] in <134deb60e87843589b7ea1a020650b28>:0 
+[]:   at KerbalEngineer.Flight.Readouts.Body.GeostationaryHeight.Draw (KerbalEngineer.Unity.Flight.ISectionModule section) [0x00000] in <134deb60e87843589b7ea1a020650b28>:0 
+  at KerbalEngineer.Flight.Sections.SectionModule.DrawReadoutModules () [0x0004a] in <134deb60e87843589b7ea1a020650b28>:0 
+  at KerbalEngineer.Flight.Sections.SectionModule.Draw () [0x00017] in <134deb60e87843589b7ea1a020650b28>:0 
+  at KerbalEngineer.Flight.DisplayStack.DrawSections (System.Collections.Generic.IEnumerable`1[T] sections) [0x00018] in <134deb60e87843589b7ea1a020650b28>:0 
+  at KerbalEngineer.Flight.DisplayStack.Window (System.Int32 windowId) [0x0001c] in <134deb60e87843589b7ea1a020650b28>:0 
+
+[04:08:17.5614328]: Exception DisplayStack->Window // System.ArgumentException: Getting control 3's position in a group with only 3 controls when doing repaint
+Aborting
+  at UnityEngine.GUILayoutGroup.GetNext () [0x000a0] in <58f888e0d56a4620958c8e58a768c70d>:0 
+  at UnityEngine.GUILayoutUtility.DoGetRect (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00143] in <58f888e0d56a4620958c8e58a768c70d>:0 
+  at UnityEngine.GUILayoutUtility.GetRect (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00001] in <58f888e0d56a4620958c8e58a768c70d>:0 
+  at UnityEngine.GUILayout.DoToggle (System.Boolean value, UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00001] in <58f888e0d56a4620958c8e58a768c70d>:0 
+  at UnityEngine.GUILayout.Toggle (System.Boolean value, System.String text, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00008] in <58f888e0d56a4620958c8e58a768c70d>:0 
+  at KerbalEngineer.Flight.DisplayStack.DrawControlBarButtons (System.Collections.Generic.IEnumerable`1[T] sections) [0x00061] in <134deb60e87843589b7ea1a020650b28>:0 
+  at KerbalEngineer.Flight.DisplayStack.DrawControlBar () [0x00032] in <134deb60e87843589b7ea1a020650b28>:0 
+  at KerbalEngineer.Flight.DisplayStack.Window (System.Int32 windowId) [0x00008] in <134deb60e87843589b7ea1a020650b28>:0 
+[]:   at UnityEngine.GUILayoutGroup.GetNext () [0x000a0] in <58f888e0d56a4620958c8e58a768c70d>:0 
+  at UnityEngine.GUILayoutUtility.DoGetRect (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00143] in <58f888e0d56a4620958c8e58a768c70d>:0 
+  at UnityEngine.GUILayoutUtility.GetRect (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00001] in <58f888e0d56a4620958c8e58a768c70d>:0 
+  at UnityEngine.GUILayout.DoToggle (System.Boolean value, UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00001] in <58f888e0d56a4620958c8e58a768c70d>:0 
+  at UnityEngine.GUILayout.Toggle (System.Boolean value, System.String text, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00008] in <58f888e0d56a4620958c8e58a768c70d>:0 
+  at KerbalEngineer.Flight.DisplayStack.DrawControlBarButtons (System.Collections.Generic.IEnumerable`1[T] sections) [0x00061] in <134deb60e87843589b7ea1a020650b28>:0 
+  at KerbalEngineer.Flight.DisplayStack.DrawControlBar () [0x00032] in <134deb60e87843589b7ea1a020650b28>:0 
+  at KerbalEngineer.Flight.DisplayStack.Window (System.Int32 windowId) [0x00008] in <134deb60e87843589b7ea1a020650b28>:0 
+
+[Log 04:08:18.6477807]: FlightEngineerCore->OnDestroy
+[Log 04:08:18.6632516]: ActionMenu->OnDestroy
+[04:15:06.4148658]: Exception  // System.NullReferenceException: Object reference not set to an instance of an object
+  at KerbalEngineer.Editor.BuildOverlayPartInfo.OnGUI () [0x00021] in <134deb60e87843589b7ea1a020650b28>:0 
+[]:   at KerbalEngineer.Editor.BuildOverlayPartInfo.OnGUI () [0x00021] in <134deb60e87843589b7ea1a020650b28>:0 
+
+[04:15:06.4153649]: Exception  // System.NullReferenceException: Object reference not set to an instance of an object
+  at KerbalEngineer.Editor.BuildOverlayPartInfo.OnGUI () [0x00021] in <134deb60e87843589b7ea1a020650b28>:0 
+[]:   at KerbalEngineer.Editor.BuildOverlayPartInfo.OnGUI () [0x00021] in <134deb60e87843589b7ea1a020650b28>:0 
+
+[Log 04:15:07.1312734]: BuildAdvanced->OnDestroy
+[Log 04:15:13.3463423]: ActionMenu->Awake
+[Log 04:15:13.3468427]: FlightEngineerCore->Awake
+[Log 04:15:29.3626061]: ActionMenu->Start
+[Log 04:15:29.3905552]: FlightEngineerCore->Start
+[04:33:49.4894216]: Exception SimManager.StartSimulation() // System.NullReferenceException: Object reference not set to an instance of an object
+  at KerbalEngineer.VesselSimulator.SimManager.StartSimulation () [0x00054] in <134deb60e87843589b7ea1a020650b28>:0 
+[]:   at KerbalEngineer.VesselSimulator.SimManager.StartSimulation () [0x00054] in <134deb60e87843589b7ea1a020650b28>:0 
+
+[Log 04:33:50.3363663]: FlightEngineerCore->OnDestroy
+[Log 04:33:50.5569570]: ActionMenu->OnDestroy
+[04:38:12.0899512]: Exception  // System.NullReferenceException: Object reference not set to an instance of an object
+  at KerbalEngineer.Editor.BuildOverlayPartInfo.OnGUI () [0x00021] in <134deb60e87843589b7ea1a020650b28>:0 
+[]:   at KerbalEngineer.Editor.BuildOverlayPartInfo.OnGUI () [0x00021] in <134deb60e87843589b7ea1a020650b28>:0 
+
+[04:38:12.0904504]: Exception  // System.NullReferenceException: Object reference not set to an instance of an object
+  at KerbalEngineer.Editor.BuildOverlayPartInfo.OnGUI () [0x00021] in <134deb60e87843589b7ea1a020650b28>:0 
+[]:   at KerbalEngineer.Editor.BuildOverlayPartInfo.OnGUI () [0x00021] in <134deb60e87843589b7ea1a020650b28>:0 
+
+[Log 04:38:12.8051047]: BuildAdvanced->OnDestroy
+[Log 04:38:21.0678222]: ActionMenu->Awake
+[Log 04:38:21.0683198]: FlightEngineerCore->Awake
+[Log 04:38:37.7923785]: ActionMenu->Start
+[Log 04:38:37.8208254]: FlightEngineerCore->Start
+[04:40:15.7297357]: Exception SimManager.StartSimulation() // System.NullReferenceException: Object reference not set to an instance of an object
+  at KerbalEngineer.VesselSimulator.SimManager.StartSimulation () [0x00054] in <134deb60e87843589b7ea1a020650b28>:0 
+[]:   at KerbalEngineer.VesselSimulator.SimManager.StartSimulation () [0x00054] in <134deb60e87843589b7ea1a020650b28>:0 
+
+[Log 04:40:16.4121391]: ActionMenu->OnDestroy
+[Log 04:40:16.4340924]: FlightEngineerCore->OnDestroy
+[Log 04:40:57.4595314]: BuildAdvanced->OnDestroy
+[Log 04:41:05.5868837]: ActionMenu->Awake
+[Log 04:41:05.5868837]: FlightEngineerCore->Awake
+[Log 04:41:24.6967988]: ActionMenu->Start
+[Log 04:41:24.7307357]: FlightEngineerCore->Start
+[Log 04:44:38.6298895]: ActionMenu->OnDestroy
+[Log 04:44:38.6433648]: FlightEngineerCore->OnDestroy
+[04:48:49.8615338]: Exception  // System.NullReferenceException: Object reference not set to an instance of an object
+  at KerbalEngineer.Editor.BuildOverlayPartInfo.OnGUI () [0x00021] in <134deb60e87843589b7ea1a020650b28>:0 
+[]:   at KerbalEngineer.Editor.BuildOverlayPartInfo.OnGUI () [0x00021] in <134deb60e87843589b7ea1a020650b28>:0 
+
+[04:48:49.8620332]: Exception  // System.NullReferenceException: Object reference not set to an instance of an object
+  at KerbalEngineer.Editor.BuildOverlayPartInfo.OnGUI () [0x00021] in <134deb60e87843589b7ea1a020650b28>:0 
+[]:   at KerbalEngineer.Editor.BuildOverlayPartInfo.OnGUI () [0x00021] in <134deb60e87843589b7ea1a020650b28>:0 
+
+[Log 04:48:50.3680565]: BuildAdvanced->OnDestroy
+[Log 04:49:00.0119451]: ActionMenu->Awake
+[Log 04:49:00.0119451]: FlightEngineerCore->Awake
+[Log 04:49:19.4264507]: ActionMenu->Start
+[Log 04:49:19.4573929]: FlightEngineerCore->Start
+[Log 05:00:29.8558953]: ActionMenu->OnDestroy
+[Log 05:00:29.9377428]: FlightEngineerCore->OnDestroy
+[Log 05:00:38.9398564]: FlightEngineerCore->Awake
+[Log 05:00:42.8997926]: FlightEngineerCore->Start

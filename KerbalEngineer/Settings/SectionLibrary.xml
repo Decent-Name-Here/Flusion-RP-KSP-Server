@@ -17,7 +17,7 @@
         <IsHud>false</IsHud>
         <IsDeleted>false</IsDeleted>
         <IsHudBackground>false</IsHudBackground>
-        <IsVisible>false</IsVisible>
+        <IsVisible>true</IsVisible>
         <LineCount>8</LineCount>
         <Name>ORBITAL</Name>
         <ReadoutModuleNames>
@@ -75,8 +75,8 @@
         <IsHud>false</IsHud>
         <IsDeleted>false</IsDeleted>
         <IsHudBackground>false</IsHudBackground>
-        <IsVisible>false</IsVisible>
-        <LineCount>15</LineCount>
+        <IsVisible>true</IsVisible>
+        <LineCount>11</LineCount>
         <Name>VESSEL</Name>
         <ReadoutModuleNames>
           <string>Vessel.Name</string>
@@ -102,8 +102,8 @@
         <Abbreviation>RDZV</Abbreviation>
         <EditorPositionX>1470</EditorPositionX>
         <EditorPositionY>470</EditorPositionY>
-        <FloatingPositionX>1595</FloatingPositionX>
-        <FloatingPositionY>100</FloatingPositionY>
+        <FloatingPositionX>432</FloatingPositionX>
+        <FloatingPositionY>18</FloatingPositionY>
         <showEditButton>true</showEditButton>
         <showFloatButton>true</showFloatButton>
         <IsEditorVisible>false</IsEditorVisible>
@@ -146,7 +146,7 @@
         <IsDeleted>false</IsDeleted>
         <IsHudBackground>false</IsHudBackground>
         <IsVisible>false</IsVisible>
-        <LineCount>0</LineCount>
+        <LineCount>13</LineCount>
         <Name>THERMAL</Name>
         <ReadoutModuleNames>
           <string>Thermal.InternalFlux</string>
@@ -179,7 +179,7 @@
         <IsDeleted>false</IsDeleted>
         <IsHudBackground>false</IsHudBackground>
         <IsVisible>false</IsVisible>
-        <LineCount>0</LineCount>
+        <LineCount>10</LineCount>
         <Name>BODY</Name>
         <ReadoutModuleNames>
           <string>Body.MinOrbitHeight</string>
@@ -199,8 +199,8 @@
         <Abbreviation>BURN</Abbreviation>
         <EditorPositionX>1470</EditorPositionX>
         <EditorPositionY>470</EditorPositionY>
-        <FloatingPositionX>1595</FloatingPositionX>
-        <FloatingPositionY>100</FloatingPositionY>
+        <FloatingPositionX>910</FloatingPositionX>
+        <FloatingPositionY>107</FloatingPositionY>
         <showEditButton>true</showEditButton>
         <showFloatButton>true</showFloatButton>
         <IsEditorVisible>false</IsEditorVisible>
@@ -209,7 +209,7 @@
         <IsDeleted>false</IsDeleted>
         <IsHudBackground>false</IsHudBackground>
         <IsVisible>false</IsVisible>
-        <LineCount>0</LineCount>
+        <LineCount>12</LineCount>
         <Name>MANEUVER</Name>
         <ReadoutModuleNames>
           <string>Orbital.NodeProgradeDeltaV</string>
@@ -243,7 +243,7 @@
         <IsDeleted>false</IsDeleted>
         <IsHudBackground>false</IsHudBackground>
         <IsVisible>false</IsVisible>
-        <LineCount>0</LineCount>
+        <LineCount>10</LineCount>
         <Name>LANDING</Name>
         <ReadoutModuleNames>
           <string>Surface.ImpactAltitude</string>
@@ -290,7 +290,7 @@
         <Abbreviation>HUD 2</Abbreviation>
         <EditorPositionX>1470</EditorPositionX>
         <EditorPositionY>470</EditorPositionY>
-        <FloatingPositionX>2293</FloatingPositionX>
+        <FloatingPositionX>1440</FloatingPositionX>
         <FloatingPositionY>0</FloatingPositionY>
         <showEditButton>true</showEditButton>
         <showFloatButton>true</showFloatButton>

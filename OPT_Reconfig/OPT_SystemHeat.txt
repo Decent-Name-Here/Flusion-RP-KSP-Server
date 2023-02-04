@@ -1,0 +1,804 @@
+// Config not tested. Use at own risk.
+// WIP config for engines. Values may be very off or missing (which will cause nulls). Use at own risk.
+// SystemHeat does not agree with Tweakscale. Complaints where these two mods are installed together will hence be ignored.
+
+
+
+// Configuring radiators is not too hard. You need to figure out surface area and temperature. You should pick surface area by looking at your radiator and seeing how large it is (compare it one of the SystemHeat ones, and scale from there). Then you pick maximum temperature, which is determined by the type of radiator you are using. 
+
+// * 350K: basic ammonia loop (life support) radiators like on the ISS.
+// * 1000K: The 'high temperature' radiators in Heat Control, which are based more or less on high temp radiators we could feasibly build today.
+// * 1300K: The 'microchannel' higher tech carbon filament tube radiators that can handle more heat.
+
+
+
+// - - - - Fuselages - - - -
+
+
+
+@PART[j_deploymentBay]:NEEDS[SystemHeat]
+{
+	MODULE
+	{
+		name = ModuleSystemHeat
+		volume = 0.05
+		moduleID = default
+		iconName = Icon_Radiator
+	}
+	@MODULE[ModuleActiveRadiator]
+	{
+		@name = ModuleSystemHeatRadiator
+		moduleID = radiator
+		// ModuleSystemHeat instance to link to
+		systemHeatModuleID = default
+
+		// option: use physical or deterministic temperatures
+		// DOES NOT WORK YET
+		// Use emissivity to directly model temp
+		usePhysicalTemperatureModeling = false
+		// maximum temperature system can work at
+		maxRadiatorTemperature = 350 
+		// emissivity
+		emissivity = 0.9
+
+		// option: use deterministic temperatures
+		// Power radiated per temperature
+		temperatureCurve
+		{
+			key = 0 0
+			key = 350 50
+		}
+	}
+}
+
+// J, Stail, Stail Freight
+@PART[j_4m_cargo|j_4m_service|B_Drop_Bay_mk1|b_dropBay_mk2|bf_adaptor|bf_cargo]:NEEDS[SystemHeat]
+{
+	MODULE
+	{
+		name = ModuleSystemHeat
+		volume = 0.05
+		moduleID = default
+		iconName = Icon_Radiator
+	}
+	@MODULE[ModuleActiveRadiator]
+	{
+		@name = ModuleSystemHeatRadiator
+		moduleID = radiator
+		systemHeatModuleID = default
+		usePhysicalTemperatureModeling = false
+		maxRadiatorTemperature = 350 
+		emissivity = 0.9
+		temperatureCurve
+		{
+			key = 0 0
+			key = 350 60
+		}
+	}
+}
+@PART[b_docking_port1]
+{
+	MODULE
+	{
+		name = ModuleSystemHeat
+		volume = 0.05
+		moduleID = default
+		iconName = Icon_Radiator
+	}
+	@MODULE[ModuleActiveRadiator]
+	{
+		@name = ModuleSystemHeatRadiator
+		moduleID = radiator
+		systemHeatModuleID = default
+		usePhysicalTemperatureModeling = false
+		maxRadiatorTemperature = 350 
+		emissivity = 0.9
+		temperatureCurve
+		{
+			key = 0 0
+			key = 350 40
+		}
+	}
+}
+
+// K & KH short
+@PART[k_3m_fuselage|kh_3m_fuselage|k_3m_cargo|kh_3m_cargo]:NEEDS[SystemHeat]
+{
+	MODULE
+	{
+		name = ModuleSystemHeat
+		volume = 0.05
+		moduleID = default
+		iconName = Icon_Radiator
+	}
+	@MODULE[ModuleActiveRadiator]
+	{
+		@name = ModuleSystemHeatRadiator
+		moduleID = radiator
+		systemHeatModuleID = default
+		usePhysicalTemperatureModeling = false
+		maxRadiatorTemperature = 350
+		emissivity = 0.9
+		temperatureCurve
+		{
+			key = 0 0
+			key = 350 80
+		}
+	}
+}
+
+// Avatar, K & KH long, Humpback, Chimera
+@PART[a_6m_cargo|a_6m_fuselage|kh_6m_cargo|kh_6m_fuselage|k_6m_cargo|k_6m_fuselage|l_6m_cargo|l_6m_fuselage|c_6m_cargo|c_6m_tanks]:NEEDS[SystemHeat]
+{
+	MODULE
+	{
+		name = ModuleSystemHeat
+		volume = 0.05
+		moduleID = default
+		iconName = Icon_Radiator
+	}
+	@MODULE[ModuleActiveRadiator]
+	{
+		@name = ModuleSystemHeatRadiator
+		moduleID = radiator
+		systemHeatModuleID = default
+		usePhysicalTemperatureModeling = false
+		maxRadiatorTemperature = 350
+		emissivity = 0.9
+		temperatureCurve
+		{
+			key = 0 0
+			key = 350 160
+		}
+	}
+}
+
+// Nebula Intake
+@PART[opt_s2intake]:NEEDS[SystemHeat]
+{
+	MODULE
+	{
+		name = ModuleSystemHeat
+		volume = 0.05
+		moduleID = default
+		iconName = Icon_Radiator
+	}
+	@MODULE[ModuleActiveRadiator]
+	{
+		@name = ModuleSystemHeatRadiator
+		moduleID = radiator
+		systemHeatModuleID = default
+		usePhysicalTemperatureModeling = false
+		maxRadiatorTemperature = 350
+		emissivity = 0.9
+		temperatureCurve
+		{
+			key = 0 0
+			key = 350 300
+		}
+	}
+}
+
+// Legacy Wings I 
+@PART[wing_1a]:NEEDS[SystemHeat]
+{
+	MODULE
+	{
+		name = ModuleSystemHeat
+		volume = 0.05
+		moduleID = default
+		iconName = Icon_Radiator
+	}
+	@MODULE[ModuleActiveRadiator]
+	{
+		@name = ModuleSystemHeatRadiator
+		moduleID = radiator
+		systemHeatModuleID = default
+		usePhysicalTemperatureModeling = false
+		maxRadiatorTemperature = 350
+		emissivity = 0.9
+		temperatureCurve
+		{
+			key = 0 0
+			key = 350 300
+		}
+	}
+}
+@PART[winglet_1a]:NEEDS[SystemHeat]
+{
+	MODULE
+	{
+		name = ModuleSystemHeat
+		volume = 0.05
+		moduleID = default
+		iconName = Icon_Radiator
+	}
+	@MODULE[ModuleActiveRadiator]
+	{
+		@name = ModuleSystemHeatRadiator
+		moduleID = radiator
+		systemHeatModuleID = default
+		usePhysicalTemperatureModeling = false
+		maxRadiatorTemperature = 1000
+		emissivity = 0.9
+		temperatureCurve
+		{
+			key = 0 0
+			key = 1000 180
+		}
+	}
+}
+@PART[winglet_1b]:NEEDS[SystemHeat]
+{
+	MODULE
+	{
+		name = ModuleSystemHeat
+		volume = 0.05
+		moduleID = default
+		iconName = Icon_Radiator
+	}
+	@MODULE[ModuleActiveRadiator]
+	{
+		@name = ModuleSystemHeatRadiator
+		moduleID = radiator
+		systemHeatModuleID = default
+		usePhysicalTemperatureModeling = false
+		maxRadiatorTemperature = 1000
+		emissivity = 0.9
+		temperatureCurve
+		{
+			key = 0 0
+			key = 1000 100
+		}
+	}
+}
+@PART[winglet_1c]:NEEDS[SystemHeat]
+{
+	MODULE
+	{
+		name = ModuleSystemHeat
+		volume = 0.05
+		moduleID = default
+		iconName = Icon_Radiator
+	}
+	@MODULE[ModuleActiveRadiator]
+	{
+		@name = ModuleSystemHeatRadiator
+		moduleID = radiator
+		systemHeatModuleID = default
+		usePhysicalTemperatureModeling = false
+		maxRadiatorTemperature = 1000
+		emissivity = 0.9
+		temperatureCurve
+		{
+			key = 0 0
+			key = 1000 250
+		}
+	}
+}
+
+
+
+// - - - - Engines - - - -
+
+
+
+@PART[opt_nebula_engine]:NEEDS[SystemHeat]
+{
+	MODULE
+	{
+		name = ModuleSystemHeat
+		// Cubic metres
+		volume = 1.0
+		moduleID = engine
+		iconName = Icon_Engine
+	}
+	MODULE
+	{
+		name = ModuleSystemHeatEngine
+		// must be unique
+		moduleID = scoop
+		// ModuleSystemHeat to link to
+		systemHeatModuleID = engine
+		engineModuleID = Shcramjet
+		// in KW at peak output
+		// LV-N has ~240 MW jet power, non-rejectable heat can be this much
+		systemPower = 200
+		shutdownTemperature = 1500
+		// Nominal system output temperature
+		systemOutletTemperature = 1000
+		// Valid system temperature range
+		temperatureCurve
+		{
+			key = 0 1.0
+			key = 1000 1.0
+			key = 1200 1.1
+			key = 1400 0.0
+		}
+	}
+}
+@PART[arie73]:NEEDS[SystemHeat]
+{
+	MODULE
+	{
+		name = ModuleSystemHeat
+		volume = 1.0
+		moduleID = engine
+		iconName = Icon_Engine
+	}
+	MODULE
+	{
+		name = ModuleSystemHeatEngine
+		moduleID = ntr1
+		systemHeatModuleID = engine
+		engineModuleID = Air-augmented
+		systemPower = 200
+		shutdownTemperature = 1500
+		systemOutletTemperature = 1000
+		temperatureCurve
+		{
+			key = 0 1.0
+			key = 1000 1.0
+			key = 1200 1.1
+			key = 1400 0.0
+		}
+	}
+	MODULE
+	{
+		name = ModuleSystemHeatEngine
+		moduleID = ntr2
+		systemHeatModuleID = engine
+		engineModuleID = Standard
+		systemPower = 200
+		shutdownTemperature = 1500
+		systemOutletTemperature = 1000
+		temperatureCurve
+		{
+			key = 0 1.0
+			key = 1000 1.0
+			key = 1200 1.1
+			key = 1400 0.0
+		}
+	}
+}
+@PART[arie73|opt_vtol_lpr2]:NEEDS[SystemHeat]
+{
+	MODULE
+	{
+		name = ModuleSystemHeat
+		volume = 1.0
+		moduleID = engine
+		iconName = Icon_Engine
+	}
+	MODULE
+	{
+		name = ModuleSystemHeatEngine
+		moduleID = ntr
+		systemHeatModuleID = engine
+		
+		systemPower = 200
+		shutdownTemperature = 1500
+		systemOutletTemperature = 1000
+		temperatureCurve
+		{
+			key = 0 1.0
+			key = 1000 1.0
+			key = 1200 1.1
+			key = 1400 0.0
+		}
+	}
+}
+@PART[j81turbojet]:NEEDS[SystemHeat]
+{
+	MODULE
+	{
+		name = ModuleSystemHeat
+		volume = 1.0
+		moduleID = engine
+		iconName = Icon_Engine
+	}
+	MODULE
+	{
+		name = ModuleSystemHeatEngine
+		moduleID = scoop1
+		systemHeatModuleID = engine
+		engineModuleID = AirBreathing
+		systemPower = 600
+		shutdownTemperature = 2000
+		systemOutletTemperature = 1400
+		temperatureCurve
+		{
+			key = 0 1.0
+			key = 1400 1.0
+			key = 2000 0.0
+		}
+	}
+	MODULE
+	{
+		name = ModuleSystemHeatEngine
+		moduleID = scoop2
+		systemHeatModuleID = engine
+		engineModuleID = ClosedCycle
+		systemPower = 600
+		shutdownTemperature = 2000
+		systemOutletTemperature = 1400
+		temperatureCurve
+		{
+			key = 0 1.0
+			key = 1400 1.0
+			key = 2000 0.0
+		}
+	}
+}
+@PART[engine_darkDrive]:NEEDS[SystemHeat]
+{
+	MODULE
+	{
+		name = ModuleSystemHeat
+		volume = 1.0
+		moduleID = engine
+		iconName = Icon_Engine
+	}
+	MODULE
+	{
+		name = ModuleSystemHeatEngine
+		moduleID = ntr
+		systemHeatModuleID = engine
+		
+		systemPower = 1000
+		shutdownTemperature = 2000
+		systemOutletTemperature = 1400
+		temperatureCurve
+		{
+			key = 0 1.0
+			key = 1400 1.0
+			key = 2000 0.0
+		}
+	}
+}
+@PART[opt_vtol_wrapj2]:NEEDS[SystemHeat]
+{
+	MODULE
+	{
+		name = ModuleSystemHeat
+		volume = 1.0
+		moduleID = engine
+		iconName = Icon_Engine
+	}
+	MODULE
+	{
+		name = ModuleSystemHeatEngine
+		moduleID = ntr
+		systemHeatModuleID = engine
+		
+		systemPower = 200
+		shutdownTemperature = 1500
+		systemOutletTemperature = 1000
+		temperatureCurve
+		{
+			key = 0 1.0
+			key = 1000 1.0
+			key = 1200 1.1
+			key = 1400 0.0
+		}
+	}
+}
+@PART[opt_vtol_wrapk2|opt_vtol_wrapl2]:NEEDS[SystemHeat]
+{
+	MODULE
+	{
+		name = ModuleSystemHeat
+		volume = 1.0
+		moduleID = engine
+		iconName = Icon_Engine
+	}
+	MODULE
+	{
+		name = ModuleSystemHeatEngine
+		moduleID = ntr
+		systemHeatModuleID = engine
+		
+		systemPower = 200
+		shutdownTemperature = 1500
+		systemOutletTemperature = 1000
+		temperatureCurve
+		{
+			key = 0 1.0
+			key = 1000 1.0
+			key = 1200 1.1
+			key = 1400 0.0
+		}
+	}
+}
+@PART[opt_sage]:NEEDS[SystemHeat]
+{
+	MODULE
+	{
+		name = ModuleSystemHeat
+		volume = 1.0
+		moduleID = engine
+		iconName = Icon_Engine
+	}
+	MODULE
+	{
+		name = ModuleSystemHeatEngine
+		moduleID = ntr
+		systemHeatModuleID = engine
+		
+		systemPower = 200
+		shutdownTemperature = 1500
+		systemOutletTemperature = 1000
+		temperatureCurve
+		{
+			key = 0 1.0
+			key = 1000 1.0
+			key = 1200 1.1
+			key = 1400 0.0
+		}
+	}
+}
+@PART[opt_surge]:NEEDS[SystemHeat]
+{
+	MODULE
+	{
+		name = ModuleSystemHeat
+		volume = 1.0
+		moduleID = engine
+		iconName = Icon_Engine
+	}
+	MODULE
+	{
+		name = ModuleSystemHeatEngine
+		moduleID = ntr
+		systemHeatModuleID = engine
+		
+		systemPower = 200
+		shutdownTemperature = 1500
+		systemOutletTemperature = 1000
+		temperatureCurve
+		{
+			key = 0 1.0
+			key = 1000 1.0
+			key = 1200 1.1
+			key = 1400 0.0
+		}
+	}
+}
+@PART[opt_vtol_jumpa2]:NEEDS[SystemHeat]
+{
+	MODULE
+	{
+		name = ModuleSystemHeat
+		volume = 1.0
+		moduleID = engine
+		iconName = Icon_Engine
+	}
+	MODULE
+	{
+		name = ModuleSystemHeatEngine
+		moduleID = ntr
+		systemHeatModuleID = engine
+		
+		systemPower = 200
+		shutdownTemperature = 1500
+		systemOutletTemperature = 1000
+		temperatureCurve
+		{
+			key = 0 1.0
+			key = 1000 1.0
+			key = 1200 1.1
+			key = 1400 0.0
+		}
+	}
+}
+
+
+
+// - - - - Power Spheres (Tidal Force) - - - -
+
+
+
+@PART[opt_powersphere1a]:NEEDS[SystemHeat]
+{
+	!MODULE[ModuleCoreHeat] {}
+	!MODULE[ModuleOverheatDisplay] {}
+	MODULE
+	{
+		name = ModuleSystemHeat
+		// Cubic metres
+		volume = 0.5
+		moduleID = supercell
+		iconName = Icon_Gears
+	}
+	MODULE
+	{
+		name = ModuleSystemHeat
+		volume = 0.05
+		moduleID = default
+		iconName = Icon_Radiator
+	}
+	
+	@MODULE[ModuleActiveRadiator]
+	{
+		@name = ModuleSystemHeatRadiator
+		moduleID = radiator
+		systemHeatModuleID = default
+
+		usePhysicalTemperatureModeling = false
+		maxRadiatorTemperature = 350
+		emissivity = 0.9
+
+		temperatureCurve
+		{
+			key = 0 0
+			key = 350 10
+		}
+	}
+	
+	@MODULE[ModuleResourceConverter]
+	{
+		@name = ModuleSystemHeatConverter
+		// must be unique
+		moduleID = converter
+		// ModuleSystemHeat moduleID to link to
+		heatModuleID = supercell
+
+		// The shutdown temperature of the part
+		shutdownTemperature = 1000
+
+		// The temperature the system contributes to loops
+		systemOutletTemperature = 500
+
+		// Map loop temperature to system efficiency (0-1.0)
+		systemEfficiency
+		{
+			key = 0 0 0 0
+			key = 300 0.2
+			key = 500 1 0 0
+			key = 800 0.2
+			key = 1000 0 0 0
+		}
+		// Map system outlet temperature (K) to heat generation (kW)
+		systemPower
+		{
+			key = 0 30
+		}
+		!ThermalEfficiency  {} 
+		!TemperatureModifier {}
+
+		@GeneratesHeat = false
+	}
+}
+@PART[opt_powersphere1a]:NEEDS[SystemHeat]
+{
+	!MODULE[ModuleCoreHeat] {}
+	!MODULE[ModuleOverheatDisplay] {}
+	MODULE
+	{
+		name = ModuleSystemHeat
+		volume = 0.5
+		moduleID = supercell
+		iconName = Icon_Gears
+	}
+	MODULE
+	{
+		name = ModuleSystemHeat
+		volume = 0.05
+		moduleID = default
+		iconName = Icon_Radiator
+	}
+	
+	@MODULE[ModuleActiveRadiator]
+	{
+		@name = ModuleSystemHeatRadiator
+		moduleID = radiator
+		systemHeatModuleID = default
+
+		usePhysicalTemperatureModeling = false
+		maxRadiatorTemperature = 350
+		emissivity = 0.9
+
+		temperatureCurve
+		{
+			key = 0 0
+			key = 350 40
+		}
+	}
+	
+	@MODULE[ModuleResourceConverter]
+	{
+		@name = ModuleSystemHeatConverter
+		moduleID = converter
+		heatModuleID = supercell
+
+		shutdownTemperature = 1000
+		systemOutletTemperature = 500
+
+		systemEfficiency
+		{
+			key = 0 0 0 0
+			key = 300 0.2
+			key = 500 1 0 0
+			key = 800 0.2
+			key = 1000 0 0 0
+		}
+		systemPower
+		{
+			key = 0 120
+		}
+		!ThermalEfficiency  {} 
+		!TemperatureModifier {}
+
+		@GeneratesHeat = false
+	}
+}
+
+
+
+// - - - - Power Spheres (Dark Energy) - - - -
+
+
+
+@PART[opt_powersphere1b]:NEEDS[SystemHeat]
+{
+	!MODULE[ModuleCoreHeat] {}
+	!MODULE[ModuleOverheatDisplay] {}
+	MODULE
+	{
+		name = ModuleSystemHeat
+		volume = 0.5
+		moduleID = polywell
+		iconName = Icon_Gears
+	}
+	MODULE
+	{
+		name = ModuleSystemHeat
+		volume = 0.05
+		moduleID = default
+		iconName = Icon_Radiator
+	}
+	
+	@MODULE[ModuleActiveRadiator]
+	{
+		@name = ModuleSystemHeatRadiator
+		moduleID = radiator
+		systemHeatModuleID = default
+
+		usePhysicalTemperatureModeling = false
+		maxRadiatorTemperature = 350
+		emissivity = 0.9
+
+		temperatureCurve
+		{
+			key = 0 0
+			key = 350 20
+		}
+	}
+	
+	@MODULE[ModuleResourceConverter]
+	{
+		@name = ModuleSystemHeatConverter
+		moduleID = converter
+		heatModuleID = polywell
+
+		shutdownTemperature = 2000
+		systemOutletTemperature = 1000
+
+		systemEfficiency
+		{
+			key = 0 0 0 0
+			key = 500 0.2
+			key = 1000 1 0 0
+			key = 1850 0.2
+			key = 3000 0 0 0
+		}
+		systemPower
+		{
+			key = 0 120
+		}
+		!ThermalEfficiency  {} 
+		!TemperatureModifier {}
+
+		@GeneratesHeat = false
+	}
+}

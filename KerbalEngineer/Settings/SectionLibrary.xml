@@ -243,7 +243,7 @@
         <IsDeleted>false</IsDeleted>
         <IsHudBackground>false</IsHudBackground>
         <IsVisible>false</IsVisible>
-        <LineCount>10</LineCount>
+        <LineCount>0</LineCount>
         <Name>LANDING</Name>
         <ReadoutModuleNames>
           <string>Surface.ImpactAltitude</string>

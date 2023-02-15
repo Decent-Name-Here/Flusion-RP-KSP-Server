@@ -5,6 +5,11 @@
   <MandatoryPlugins></MandatoryPlugins>
   <OptionalPlugins>
     <DllFile>
+      <Text>ClickThroughBlocker. Version: 2.1.10.21</Text>
+      <FilePath>000_clickthroughblocker/plugins/clickthroughblocker.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
       <Text>FilterExtensions. Version: 1.0.0.0</Text>
       <FilePath>000_filterextensions/plugins/filterextensions.dll</FilePath>
       <Sha></Sha>
@@ -17,6 +22,66 @@
     <DllFile>
       <Text>HarmonyInstallChecker. Version: 1.0.0.0</Text>
       <FilePath>000_harmony/harmonyinstallchecker.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>KSPBurst. Version: 1.5.5.1</Text>
+      <FilePath>000_kspburst/plugins/kspburst.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>Microsoft.Extensions.FileSystemGlobbing. Version: 6.0.21.15406</Text>
+      <FilePath>000_kspburst/plugins/microsoft.extensions.filesystemglobbing.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>System.IO.Compression. Version: 4.6.57.0</Text>
+      <FilePath>000_kspburst/plugins/system.io.compression.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>System.IO.Compression.FileSystem. Version: 4.6.57.0</Text>
+      <FilePath>000_kspburst/plugins/system.io.compression.filesystem.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>System.Runtime.CompilerServices.Unsafe. Version: 4.700.20.12001</Text>
+      <FilePath>000_kspburst/plugins/system.runtime.compilerservices.unsafe.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>System.Runtime. Version: 4.0.0.0</Text>
+      <FilePath>000_kspburst/plugins/system.runtime.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>Unity.Burst. Version: 0.0.0.0</Text>
+      <FilePath>000_kspburst/plugins/unity.burst.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>Unity.Burst.Unsafe. Version: 1.0.0.0</Text>
+      <FilePath>000_kspburst/plugins/unity.burst.unsafe.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>Unity.Collections. Version: 0.0.0.0</Text>
+      <FilePath>000_kspburst/plugins/unity.collections.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>Unity.Jobs. Version: 0.0.0.0</Text>
+      <FilePath>000_kspburst/plugins/unity.jobs.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>Unity.Mathematics. Version: 1.0.0.0</Text>
+      <FilePath>000_kspburst/plugins/unity.mathematics.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>ToolbarControl. Version: 0.1.9.9</Text>
+      <FilePath>001_toolbarcontrol/plugins/toolbarcontrol.dll</FilePath>
       <Sha></Sha>
     </DllFile>
     <DllFile>
@@ -60,6 +125,11 @@
       <Sha></Sha>
     </DllFile>
     <DllFile>
+      <Text>B9PartSwitch. Version: 2.20.0.0</Text>
+      <FilePath>b9partswitch/plugins/b9partswitch.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
       <Text>BDArmory.Core. Version: 1.3.4.0</Text>
       <FilePath>bdarmory/plugins/bdarmory.core.dll</FilePath>
       <Sha></Sha>
@@ -87,6 +157,31 @@
     <DllFile>
       <Text>DecouplerShroud. Version: 1.0.0.0</Text>
       <FilePath>decouplershroud/decouplershroud.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>Launchpad. Version: 6.99.3.0</Text>
+      <FilePath>extraplanetarylaunchpads/plugins/launchpad.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>FerramAerospaceResearch.Base. Version: 0.16.1.1</Text>
+      <FilePath>ferramaerospaceresearch/plugins/ferramaerospaceresearch.base.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>FerramAerospaceResearch. Version: 0.16.1.1</Text>
+      <FilePath>ferramaerospaceresearch/plugins/ferramaerospaceresearch.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>ferramGraph. Version: 1.3.0.0</Text>
+      <FilePath>ferramaerospaceresearch/plugins/ferramgraph.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>Scale_Redist. Version: 1.0.0.0</Text>
+      <FilePath>ferramaerospaceresearch/plugins/scale_redist.dll</FilePath>
       <Sha></Sha>
     </DllFile>
     <DllFile>
@@ -122,6 +217,11 @@
     <DllFile>
       <Text>KerbalEngineer.Unity. Version: 1.0.0.0</Text>
       <FilePath>kerbalengineer/kerbalengineer.unity.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>KerbalJointReinforcementNext. Version: 4.1.19.0</Text>
+      <FilePath>kerbaljointreinforcement/plugins/kerbaljointreinforcementnext.dll</FilePath>
       <Sha></Sha>
     </DllFile>
     <DllFile>
@@ -192,6 +292,11 @@
     <DllFile>
       <Text>SigmaDimensions. Version: 1.0.0.0</Text>
       <FilePath>sigmadimensions/plugins/sigmadimensions.dll</FilePath>
+      <Sha></Sha>
+    </DllFile>
+    <DllFile>
+      <Text>SimpleLogistics. Version: 2.0.6.109</Text>
+      <FilePath>simplelogistics/plugins/simplelogistics.dll</FilePath>
       <Sha></Sha>
     </DllFile>
     <DllFile>
@@ -337,6 +442,62 @@
     <string>bahaTowMissile</string>
     <string>missileController</string>
     <string>ShroudedDecoupler</string>
+    <string>ELTankLargeMTL</string>
+    <string>ELTankLargeORE</string>
+    <string>ELTankLargeRP</string>
+    <string>ELTankLargeSCRAP</string>
+    <string>ELTankMedMTL</string>
+    <string>ELTankMedORE</string>
+    <string>ELTankMedRP</string>
+    <string>ELTankMedSCRAP</string>
+    <string>ELTankSmlMTL</string>
+    <string>ELTankSmlORE</string>
+    <string>ELTankSmlRP</string>
+    <string>ELTankSmlSCRAP</string>
+    <string>ELTankXLargeMTL</string>
+    <string>ELTankXLargeORE</string>
+    <string>ELTankXLargeRP</string>
+    <string>ELTankXLargeSCRAP</string>
+    <string>ELAuger</string>
+    <string>ELSmallAuger</string>
+    <string>ELTinyAuger</string>
+    <string>ELConstructionDrone</string>
+    <string>ELConstructionDrone.v2</string>
+    <string>ELControlReference</string>
+    <string>HexCanMetalHuge</string>
+    <string>HexCanMetalLarge</string>
+    <string>HexCanMetal</string>
+    <string>HexCanMetalSmall</string>
+    <string>HexCanOreHuge</string>
+    <string>HexCanOreLarge</string>
+    <string>HexCanOre</string>
+    <string>HexCanOreSmall</string>
+    <string>RocketpartsHuge7x</string>
+    <string>RocketpartsLarge7x</string>
+    <string>Rocketparts7x</string>
+    <string>RocketpartsSmall7x</string>
+    <string>HexCanRocketPartsHuge</string>
+    <string>HexCanRocketPartsLarge</string>
+    <string>HexCanRocketParts</string>
+    <string>HexCanRocketPartsSmall</string>
+    <string>ELLandingPad</string>
+    <string>ELLathe</string>
+    <string>ELLaunchpad</string>
+    <string>ELLaunchpad2</string>
+    <string>ELMagnetometer</string>
+    <string>ELMallet</string>
+    <string>ELMicroPad</string>
+    <string>ELOMD</string>
+    <string>ELOrbitalDock</string>
+    <string>ELRecycleBin</string>
+    <string>ELRecycleBin.Large</string>
+    <string>ELRocketBuilder</string>
+    <string>ELRunway</string>
+    <string>ELSmelter</string>
+    <string>ELSmallSmelter</string>
+    <string>ELTinySmelter</string>
+    <string>ELSurveyStake</string>
+    <string>ELWorkshop</string>
     <string>ifsBigSphereTank</string>
     <string>EC2501-125</string>
     <string>EC2501</string>
@@ -400,6 +561,113 @@
     <string>mumech.MJ2.AR202.features3</string>
     <string>mumech.MJ2.AR202.features4</string>
     <string>mumech.MJ2.Pod</string>
+    <string>AAengine</string>
+    <string>engine.darkDrive</string>
+    <string>opt.mk2.engine.short</string>
+    <string>opt.nebula.engine</string>
+    <string>opt.vtol.jumpa2</string>
+    <string>opt.vtol.jumpa1</string>
+    <string>opt.vtol.wrapj2</string>
+    <string>opt.vtol.wrapj1</string>
+    <string>opt.vtol.wrapk2</string>
+    <string>opt.vtol.wrapk1</string>
+    <string>h.2m.em.fm</string>
+    <string>h.2m.em.mm</string>
+    <string>h.2m.nose.fm</string>
+    <string>h.2m.nose.mm</string>
+    <string>h.3m.crew.fm</string>
+    <string>h.3m.crew.mm</string>
+    <string>h.3m.fuel.fm</string>
+    <string>h.3m.fuel.mm</string>
+    <string>h.4m.nose.fm</string>
+    <string>h.4m.nose.mm</string>
+    <string>h.drone.fm</string>
+    <string>h.drone.mm</string>
+    <string>ij.adaptor</string>
+    <string>ij.4m.adaptor.variant</string>
+    <string>i.4m.cockpit.isp</string>
+    <string>i.4m.tail</string>
+    <string>phoenix.cockpit</string>
+    <string>ils.cockpitv2</string>
+    <string>jk.3m.adaptor</string>
+    <string>jk.7m.adaptor</string>
+    <string>j.2m.bicoupler</string>
+    <string>j.docking.port</string>
+    <string>j.2m.tanks</string>
+    <string>j.2m.inlineBoardingRamp</string>
+    <string>j.deploymentBay</string>
+    <string>j.large.docking.port</string>
+    <string>j.3m.rearHatch</string>
+    <string>j.4m.cargo</string>
+    <string>j.4m.crew</string>
+    <string>j.engineMount.4</string>
+    <string>j.4m.tanks</string>
+    <string>j.4m.lab</string>
+    <string>j.4m.service</string>
+    <string>j.5m.nose</string>
+    <string>j.5m.tail</string>
+    <string>j.6m.cockpit</string>
+    <string>j.cockpitv2</string>
+    <string>j.cockpit.qs</string>
+    <string>j.cockpit.qs.no.intake</string>
+    <string>j.linear.aerospike</string>
+    <string>j.4m.drone</string>
+    <string>j.4m.droneRCS</string>
+    <string>j.sas</string>
+    <string>kh.3m.cargo</string>
+    <string>kh.3m.fuselage</string>
+    <string>kh.6m.cargo</string>
+    <string>kh.6m.fuselage</string>
+    <string>kh.7m.cargoTail</string>
+    <string>kh.7m.cargoTail.variant</string>
+    <string>k.10m.cockpit</string>
+    <string>k.2m.bicoupler</string>
+    <string>k.3m.fuelTank</string>
+    <string>k.3m.fuselage</string>
+    <string>k.3m.tricoupler</string>
+    <string>k.6m.cargo</string>
+    <string>k.6m.fuelTank</string>
+    <string>k.6m.fuselage</string>
+    <string>k.7m.cargoTail</string>
+    <string>k.7m.cargoTail.variant</string>
+    <string>mk2j.adaptor</string>
+    <string>kh.oms.hollow</string>
+    <string>k.3m.droneRCS</string>
+    <string>k.oms</string>
+    <string>k.oms.hollow</string>
+    <string>opt.s2intake</string>
+    <string>k.10m.cockpit.custom</string>
+    <string>k.3m.crew</string>
+    <string>k.3m.lab</string>
+    <string>k.10m.cockpit.legacy</string>
+    <string>mk2.nose.opt</string>
+    <string>mk2.ramIntake</string>
+    <string>mk2.cockpitv2</string>
+    <string>opt.oms.black</string>
+    <string>opt.oms.grey</string>
+    <string>opt.rcs.black</string>
+    <string>opt.rcs.grey</string>
+    <string>opt.retro.rcs</string>
+    <string>opt.pylon.a</string>
+    <string>opt.pylon.b</string>
+    <string>opt.stabilizer.a</string>
+    <string>opt.stabilizer.b</string>
+    <string>opt.winglet.a</string>
+    <string>opt.winglet.a.elevon</string>
+    <string>opt.winglet.b</string>
+    <string>opt.winglet.b.elevon</string>
+    <string>opt.winglet.c</string>
+    <string>opt.winglet.c.elevon</string>
+    <string>opt.wing.a</string>
+    <string>opt.wing.a.elevon</string>
+    <string>opt.wing.b</string>
+    <string>opt.wing.b.elevon</string>
+    <string>opt.wing.c</string>
+    <string>opt.wing.c.elevon1</string>
+    <string>opt.wing.c.elevon2</string>
+    <string>OPTUpgradeHeat1</string>
+    <string>OPTUpgradeHeat2</string>
+    <string>OPTUpgradeIon1</string>
     <string>aluminiumPhotonSail</string>
     <string>dielectricPhotonSail</string>
     <string>dipoleDrive</string>
@@ -475,6 +743,15 @@
     <string>KKAOSS.small.Rocket.Fuel.Tank</string>
     <string>KKAOSS.ScienceJr.Tank</string>
     <string>KKAOSS.Xenon.Tank</string>
+    <string>KKAOSS.MetalOreDrill</string>
+    <string>KKAOSS.Storage.Metal</string>
+    <string>KKAOSS.Storage.MetalOre</string>
+    <string>KKAOSS.Storage.RocketParts</string>
+    <string>KKAOSS.Launchpad</string>
+    <string>KKAOSS.PartRecycler</string>
+    <string>KKAOSS.ScrapMetal</string>
+    <string>KKAOSS.Smelter</string>
+    <string>KKAOSS.Workshop</string>
     <string>sye-serviceBay3m</string>
     <string>SYserviceBay3m</string>
     <string>sye-serviceBay5m</string>
@@ -602,6 +879,7 @@
     <string>cupola</string>
     <string>seatExternalCmd</string>
     <string>crewCabin</string>
+    <string>ELSurveyStation</string>
     <string>advSasModule</string>
     <string>sasModule</string>
     <string>mk1-3pod</string>
@@ -829,6 +1107,7 @@
     <string>landingLeg1-2</string>
     <string>miniLandingLeg</string>
     <string>launchClamp1</string>
+    <string>ELExtendingLaunchClamp</string>
     <string>LaunchEscapeSystem</string>
     <string>domeLight1</string>
     <string>groundLight1</string>
@@ -1436,6 +1715,9 @@
     <string>UH25</string>
     <string>Glykerol</string>
     <string>FusionPellets</string>
+    <string>Metal</string>
+    <string>ScrapMetal</string>
+    <string>MetalOre</string>
     <string>_Dymmy</string>
     <string>_LqdAmmoniaBoiloff</string>
     <string>_LqdAmmoniaHeating</string>
@@ -1544,6 +1826,10 @@
     <string>SaltWater</string>
     <string>LiterVolume</string>
     <string>MJPropellant</string>
+    <string>_Cooler</string>
+    <string>OBH</string>
+    <string>DarkGoo</string>
+    <string>DarkScience</string>
     <string>_KPBS_reprocessor_Centrifuge</string>
     <string>_KPBS_xenonextractor_Centrifuge</string>
     <string>_KPBS_uraniumextractor_Centrifuge</string>
